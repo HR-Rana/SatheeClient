@@ -354,6 +354,96 @@ a {
 
 
 
+/* blog page */
+.Featured-month-section {
+  padding-top: 70px;
+  background-color: var(--SectionBackgroundColor);
+}
+
+.Featured-month-section .left-site-content {}
+
+.Featured-month-section .content-card {
+  display: flex;
+  width: 832px;
+  height: 319px;
+  margin: 16px 0;
+  background-color: white;
+  padding: 10px;
+  border-radius: var(--borderRadius10);
+  -webkit-border-radius: var(--borderRadius10);
+  -moz-border-radius: var(--borderRadius10);
+  -ms-border-radius: var(--borderRadius10);
+  -o-border-radius: var(--borderRadius10);
+}
+
+.Featured-month-section .content-card .left-img{
+  width: 50%;
+  height: 271px;
+  padding: 20px ;
+  object-fit: cover;
+  background-color: green;
+}
+.Featured-month-section .content-card .left-img img{
+  width: 100%;
+}
+
+.Featured-month-section  .content-texts{
+  width: 50%;
+}
+.Featured-month-section  .card-title small{
+ background-color: var(--SectionBackgroundColor);
+ padding: 10px;
+ font-size: 14px;
+ border-radius: var(--borderRadius10);
+ -webkit-border-radius: var(--borderRadius10);
+ -moz-border-radius: var(--borderRadius10);
+ -ms-border-radius: var(--borderRadius10);
+ -o-border-radius: var(--borderRadius10);
+}
+.Featured-month-section .content-texts .card-title {
+  width: 80%;  
+  margin-top: 12px;
+  margin-bottom: 35px;
+}
+
+.Featured-month-section .content-texts .card-body {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.Featured-month-section .content-texts .card-body span {}
+
+.Featured-month-section .content-texts .card-body span:first-child {
+  display: flex;
+}
+
+.Featured-month-section .content-texts .card-body span:first-child img {
+  width: 18px;
+  height: 18px;
+}
+
+.Featured-month-section .content-texts .card-body span:first-child p {
+  margin: 0px 10px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  /* 12px */
+  text-transform: capitalize;
+}
+
+.Featured-month-section .content-texts .card-body span {}
+
+
+
+
+
+
+
+
 
 /* contact page */
 .contact-page {
@@ -637,6 +727,7 @@ a {
 
 .General-page-section .content {
   margin-top: 64px;
+  margin-bottom: 130px;
 }
 
 .General-page-section .content p {
