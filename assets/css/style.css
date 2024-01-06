@@ -360,7 +360,9 @@ a {
   background-color: var(--SectionBackgroundColor);
 }
 
-.Featured-month-section .left-site-content {}
+.Featured-month-section h3 {
+  margin-left: 15px;
+}
 
 .Featured-month-section .content-card {
   display: flex;
@@ -375,44 +377,70 @@ a {
   -ms-border-radius: var(--borderRadius10);
   -o-border-radius: var(--borderRadius10);
 }
-
-.Featured-month-section .content-card .left-img{
+.Featured-month-section .content-card:nth-child(2){
+  text-transform: capitalize;
+}
+.Featured-month-section .content-card:nth-child(1) p{
+ font-weight: 600;
+}
+.Featured-month-section .content-card:nth-child(1) .card-body p{
+ font-weight:400;
+}
+.Featured-month-section .content-card:nth-child(2) .card-title h5{
+ font-weight: 700;
+}
+.Featured-month-section .content-card .left-img {
   width: 50%;
   height: 271px;
-  padding: 20px ;
+  padding: 20px;
   object-fit: cover;
-  background-color: green;
+
 }
-.Featured-month-section .content-card .left-img img{
+
+.Featured-month-section .content-card .left-img img {
   width: 100%;
 }
 
-.Featured-month-section  .content-texts{
+.Featured-month-section .content-texts {
   width: 50%;
 }
-.Featured-month-section  .card-title small{
- background-color: var(--SectionBackgroundColor);
- padding: 10px;
- font-size: 14px;
- border-radius: var(--borderRadius10);
- -webkit-border-radius: var(--borderRadius10);
- -moz-border-radius: var(--borderRadius10);
- -ms-border-radius: var(--borderRadius10);
- -o-border-radius: var(--borderRadius10);
+
+.Featured-month-section .card-title small {
+  background-color: var(--SectionBackgroundColor);
+  padding: 10px;
+  font-size: 14px;
+  border-radius: var(--borderRadius10);
+  -webkit-border-radius: var(--borderRadius10);
+  -moz-border-radius: var(--borderRadius10);
+  -ms-border-radius: var(--borderRadius10);
+  -o-border-radius: var(--borderRadius10);
 }
+
 .Featured-month-section .content-texts .card-title {
-  width: 80%;  
-  margin-top: 12px;
-  margin-bottom: 35px;
+  width: 90%;
+  padding-top: 20px;
+
+}
+
+.Featured-month-section .content-texts .card-title h5 {
+  font-size: 24px;
+  line-height: 32px;
+  margin-top: 10px;
+  margin-bottom: 20px;
 }
 
 .Featured-month-section .content-texts .card-body {
+  width: 90%;
   display: flex;
   justify-content: space-between;
-  width: 100%;
+  margin-bottom: 20px;
 }
 
-.Featured-month-section .content-texts .card-body span {}
+.Featured-month-section .content-texts .card-body img {
+  width: 18px;
+  height: 18px;
+  margin-right: 12px;
+}
 
 .Featured-month-section .content-texts .card-body span:first-child {
   display: flex;
@@ -430,12 +458,9 @@ a {
   align-items: center;
   font-size: 12px;
   font-style: normal;
-  font-weight: 400;
-  /* 12px */
+  font-weight: 400 !important;
   text-transform: capitalize;
 }
-
-.Featured-month-section .content-texts .card-body span {}
 
 
 
