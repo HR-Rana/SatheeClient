@@ -366,7 +366,7 @@ a {
 
 .Featured-month-section .flex-box {
   width: 100%;
-
+  padding-bottom: 50px;
 }
 
 .Featured-month-section .left-site-content {
@@ -478,7 +478,7 @@ a {
 
 
 .Featured-month-section .right-site-videos {
-  width:30%;
+  width: 30%;
 }
 
 .Featured-month-section .video-contents .items {
@@ -533,7 +533,128 @@ a {
 
 
 
+.recently-poost-section {
+  margin-top: 57px;
+}
 
+.recently-poost-section .left-site-posts {
+  width: 60%;
+
+}
+
+.recently-poost-section .blog-post-box {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.recently-poost-section .blog-item {
+  width: 48%;
+  margin-top: 50px;
+
+}
+
+.recently-poost-section .blog-item img {
+  border-radius: var(--borderRadius10);
+  -webkit-border-radius: var(--borderRadius10);
+  -moz-border-radius: var(--borderRadius10);
+  -ms-border-radius: var(--borderRadius10);
+  -o-border-radius: var(--borderRadius10);
+}
+
+.recently-poost-section .blog-item:nth-child(even) {
+  margin-right: 0px;
+}
+
+.recently-poost-section .blog-item .blog-body {
+  margin-top: 35px;
+  width: 90%;
+}
+
+.recently-poost-section .blog-item .blog-body small {
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 100%;
+  /*12px*/
+  text-transform: capitalize;
+  background-color: var(--SectionBackgroundColor);
+  padding: 10px;
+  border-radius: var(--borderRadius10);
+  -webkit-border-radius: var(--borderRadius10);
+  -moz-border-radius: var(--borderRadius10);
+  -ms-border-radius: var(--borderRadius10);
+  -o-border-radius: var(--borderRadius10);
+}
+
+.recently-poost-section .blog-item .blog-body h4 {
+  font-size: 27px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 140%;
+  /* 37.8px */
+  text-transform: capitalize;
+  margin-top: 12px;
+  margin-bottom: 20px;
+}
+
+.recently-poost-section .blog-item .blog-body p {
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+}
+
+.recently-poost-section .blog-item .description {
+  margin-top: 27px;
+}
+
+.recently-poost-section .blog-item .bottom {
+  justify-content: space-between;
+}
+
+.recently-poost-section .blog-item .bottom img {
+  width: 28px;
+  height: 28px;
+  margin-right: 10px;
+}
+
+
+
+.recently-poost-section .pagination {
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+}
+
+.recently-poost-section .pagination ul {
+  width: 50%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.recently-poost-section .pagination ul li {
+  width: 41px;
+  height: 41px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+  border: .5px solid black;
+  cursor: pointer;
+}
+
+.recently-poost-section .pagination ul button {
+  padding: 10px 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  align-self: center;
+}
 
 
 
