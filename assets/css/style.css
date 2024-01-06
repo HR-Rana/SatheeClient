@@ -1,0 +1,383 @@
+/* =========== reset css =============== */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  font-size: 16px;
+  color: #3d3d3d;
+  background-color: #FFFFFF;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+
+/* =========== root css =============== */
+:root {
+
+  --Primary-Blue: #325CF4;
+  --SecondaryBlue: #113BB3;
+  --TertiaryBlue: #48BDFF;
+  --Text-Gray: #3D3D3D;
+  --White: #FFFFFF;
+  --box-shadow: 15px 15px 30px rgba(166.06, 170.58, 188.70, 0.50);
+  --shadow-deep: box-shadow: 0px 15px 30px -10px rgba(0, 0, 0, 0.10);
+  --shadow-narrow: box-shadow: 0px 4px 16px rgba(50, 92, 244, 0.25);
+  --shadow-inner: box-shadow: 5px 15px 30px rgba(50, 92, 244, 0.20);
+
+  --borderRadius10: 10px;
+  --SectionBackgroundColor: #f2f5ff;
+  --borderRadius: 10px;
+  --Headline: 64px;
+  --SubHeadline: 48px;
+  --largeP: 24px;
+  --normalP: 20px;
+  --SmallP: 16px;
+  --DropShadow: 0px 15px 30px -10px rgba(0, 0, 0, 0.10);
+  --NarrowShadow: 0px 4px 16px 0px rgba(50, 92, 244, 0.25);
+  --innerShadow: 5px 15px 30px 0px rgba(50, 92, 244, 0.20);
+  --Shadow: 15px 15px 30px 0px rgba(166, 171, 189, 0.50), -15px -15px 30px 0px #FAFBFF;
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Product Sans';
+  font-weight: 700;
+}
+
+h2 {
+  font-size: var(--Headline);
+}
+
+h3 {
+  font-size: var(--SubHeadline);
+}
+
+h4 {
+  font-size: 36px;
+}
+
+h5 {
+  font-size: 28px;
+}
+
+h6 {
+  font-size: 24px;
+}
+
+.button {
+  display: flex;
+  padding: 30px 10px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+
+}
+
+button {
+  display: flex;
+  padding: 1px 30px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border: none;
+  color: white;
+  background-color: var(--Primary-Blue);
+  text-transform: uppercase;
+  border-radius: var(--borderRadius);
+  -webkit-border-radius: var(--borderRadius);
+  -moz-border-radius: var(--borderRadius);
+  -ms-border-radius: var(--borderRadius);
+  -o-border-radius: var(--borderRadius);
+}
+
+a {
+  text-decoration: none;
+}
+
+.container-fluid {
+  width: 95%;
+  margin: 0 auto;
+}
+
+.container {
+  width: 1320px;
+  margin: 0 auto;
+}
+
+.flex-box {
+  display: flex;
+  justify-content: space-between;
+}
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.section-title {
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.section-title h3 {
+  font-size: var(--SubHeadline);
+}
+
+.section-title small {
+  font-size: var(--SmallP);
+  letter-spacing: 1.6px;
+  color: var(--PrimaryColor);
+}
+
+.section-title p {
+  font-size: var(--normalP);
+  line-height: 32px;
+}
+
+
+
+.navigation-bar {
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.flex-box {
+  display: flex;
+  width: 1285px;
+  align-items: center;
+  gap: 201px;
+  margin: 0 auto;
+  padding: 20px 0;
+}
+
+.navigation-bar .logo {
+  width: 20%;
+}
+
+.navigation-bar .logo img {
+  width: 100%;
+}
+
+.navigation-bar .nav-items {
+  width: 80%;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+
+}
+
+.navigation-bar .nav-items ul {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.navigation-bar ul li {
+  list-style: none;
+}
+
+.navigation-bar ul li a {
+  text-transform: uppercase;
+
+}
+
+.navigation-bar ul li a.active {
+  color: var(--Primary-Blue);
+}
+
+.navigation-bar ul li:first-child a {
+  color: var(--Primary-Blue);
+  font-weight: 600;
+}
+
+.navigation-bar .nav-items button {
+  width: 17%;
+  height: 40px;
+  text-transform: uppercase;
+  background-color: var(--Primary-Blue);
+  color: white;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* what we do page */
+
+.book-appointment {
+  margin-top: 110px;
+}
+
+.book-appointment .flex-box {
+  width: 1296px;
+  height: 357px;
+  margin: 0 auto;
+  background-color: var(--SectionBackgroundColor);
+  margin-bottom: 82px;
+  border-radius: var(--borderRadius10);
+  -webkit-border-radius: var(--borderRadius10);
+  -moz-border-radius: var(--borderRadius10);
+  -ms-border-radius: var(--borderRadius10);
+  -o-border-radius: var(--borderRadius10);
+}
+
+.book-appointment .left-site-img {
+
+  background-color: green;
+}
+
+.book-appointment .left-site-img {
+  width: 415px;
+  height: 415px;
+  margin-left: 38px;
+  transform: scaleY(1.05);
+  -webkit-transform: scaleY(1.05);
+  -moz-transform: scaleY(1.05);
+  -ms-transform: scaleY(1.05);
+  -o-transform: scaleY(1.05);
+  border-radius: var(--borderRadius10);
+  -webkit-border-radius: var(--borderRadius10);
+  -moz-border-radius: var(--borderRadius10);
+  -ms-border-radius: var(--borderRadius10);
+  -o-border-radius: var(--borderRadius10);
+}
+
+.book-appointment .appointment-content {
+  display: flex;
+  width: 550px;
+  height: 329px;
+  margin-left: -93px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.book-appointment .appointment-content span h6 {
+  display: flex;
+  padding: 10px;
+  font-size: 24px;
+  align-items: flex-start;
+  gap: 10px;
+
+}
+
+.book-appointment p {
+  text-align: justify;
+  font-family: Product Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+.book-appointment p span {
+  font-weight: 600;
+}
+
+.book-appointment p:nth-child(2) {
+  padding: 10px 0;
+}
+
+
+.doctor-details {
+  width: 1280px;
+  height: 382px;
+  margin: 0 auto;
+  text-align: justify;
+  font-family: Product Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+
+
+
+
+
+
+
+/* contact page */
+.contact-page {
+  background: #F2F5FF;
+}
+
+.contact-page .contact-form{
+  width: 45%;
+}
+.contact-page form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: green
+}
+
+.contact-page form span {
+
+}
+.contact-page form span input{
+ width: 100%;
+}
+.contact-page form span textarea{
+ width: 100%;
+ display: flex;
+ height: 100%;
+ align-items: center;
+ align-items: center;
+}
