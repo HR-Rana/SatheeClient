@@ -446,10 +446,10 @@ a {
 
 .contact-page form span label {
   height: 30px;
- display: flex;
- align-items: center;
- font-size: 16px;
- font-weight: 600;
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  font-weight: 600;
 }
 
 .contact-page form span input[type="checkbox"]::after {
@@ -583,4 +583,68 @@ a {
   bottom: -100px;
   left: -100px;
   z-index: -222;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* General page */
+
+
+.General-page-section .section-title {
+  margin-top: 88px;
+}
+
+.General-page-section .section-title small {
+  color: #325CF4;
+
+  text-align: center;
+  /* Mini headline */
+  font-family: Product Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 1.6px;
+  text-transform: uppercase;
+}
+
+.General-page-section .section-title h3 {
+  text-align: center;
+  /* Headlines 2 */
+  font-family: Product Sans;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 54px;
+}
+
+.General-page-section .section-title p {
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.General-page-section .content {
+  margin-top: 64px;
+}
+
+.General-page-section .content p {
+  color: #000;
+  text-align: justify;
+  font-family: Product Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
 }
