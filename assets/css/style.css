@@ -190,7 +190,6 @@ a {
   display: flex;
   width: 1285px;
   align-items: center;
-  gap: 201px;
   margin: 0 auto;
   padding: 20px 0;
 }
@@ -356,12 +355,22 @@ a {
 
 /* blog page */
 .Featured-month-section {
+  width: 100%;
   padding-top: 70px;
   background-color: var(--SectionBackgroundColor);
 }
 
 .Featured-month-section h3 {
   margin-left: 15px;
+}
+
+.Featured-month-section .flex-box {
+  width: 100%;
+
+}
+
+.Featured-month-section .left-site-content {
+  width: 50%;
 }
 
 .Featured-month-section .content-card {
@@ -377,18 +386,23 @@ a {
   -ms-border-radius: var(--borderRadius10);
   -o-border-radius: var(--borderRadius10);
 }
-.Featured-month-section .content-card:nth-child(2){
+
+.Featured-month-section .content-card:nth-child(2) {
   text-transform: capitalize;
 }
-.Featured-month-section .content-card:nth-child(1) p{
- font-weight: 600;
+
+.Featured-month-section .content-card:nth-child(1) p {
+  font-weight: 600;
 }
-.Featured-month-section .content-card:nth-child(1) .card-body p{
- font-weight:400;
+
+.Featured-month-section .content-card:nth-child(1) .card-body p {
+  font-weight: 400;
 }
-.Featured-month-section .content-card:nth-child(2) .card-title h5{
- font-weight: 700;
+
+.Featured-month-section .content-card:nth-child(2) .card-title h5 {
+  font-weight: 700;
 }
+
 .Featured-month-section .content-card .left-img {
   width: 50%;
   height: 271px;
@@ -463,6 +477,76 @@ a {
 }
 
 
+.Featured-month-section .right-site-videos {
+  width:30%;
+}
+
+.Featured-month-section .video-contents .items {
+  width: 100%;
+  display: flex;
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
+
+.Featured-month-section .items .video {
+  width: 129px;
+  height: 115px;
+  margin-right: 20px;
+  background-color: black;
+  border-radius: var(--borderRadius10);
+  -webkit-border-radius: var(--borderRadius10);
+  -moz-border-radius: var(--borderRadius10);
+  -ms-border-radius: var(--borderRadius10);
+  -o-border-radius: var(--borderRadius10);
+}
+
+.Featured-month-section .items .texts h6 {
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%;
+  /* 25.5px */
+  text-transform: capitalize;
+}
+
+.Featured-month-section .items .texts {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  justify-content: space-between;
+}
+
+.Featured-month-section .items .texts img {
+  width: 18px;
+  height: 18px;
+  margin-right: 10px;
+}
+
+
+.Featured-month-section .items .texts .bottom {
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  margin: 10px 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -479,7 +563,6 @@ a {
   padding: 145px;
 }
 
-.contact-form .title h4 {}
 
 .contact-form .title p {
   font-size: 24px;
