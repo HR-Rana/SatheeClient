@@ -659,7 +659,10 @@ li {
 }
 
 .recently-poost-section .pagination ul button {
+  background-color: transparent;
   padding: 10px 25px;
+  color: black;
+  border: .5px solid black;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -667,13 +670,31 @@ li {
   align-self: center;
 }
 
+.recently-poost-section .pagination ul button.active {
+  background-color: var(--Primary-Blue);
+  color: white;
+}
 
+
+
+
+
+
+
+
+
+
+
+
+/* right site */
 .recently-poost-section .right-site-content {
   width: 30%;
   display: flex;
   flex-direction: column;
   justify-content: start;
 }
+
+
 
 .recently-poost-section .right-site-content .ads-zone {
   width: 361px;
@@ -1227,7 +1248,6 @@ li {
   margin-bottom: 33px;
   display: flex;
   text-align: center;
-  background-color: red;
 }
 
 .contact-page .login-other-way {
@@ -1266,6 +1286,21 @@ li {
 }
 
 
+.contact-page .login-page .login-other-way label {
+  display: flex;
+  justify-content: space-between;
+}
+
+.contact-page .login-page span label {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 10px;
+}
+.contact-page .login-page span label a{
+   color: var(--Primary-Blue) !important;
+   text-decoration: underline;
+}
 
 
 
