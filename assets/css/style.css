@@ -1,3 +1,6 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
 /* =========== reset css =============== */
 *,
 *::before,
@@ -13,6 +16,7 @@
 body {
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
+  font-family: 'Roboto', sans-serif;
   font-size: 16px;
   color: #3d3d3d;
   background-color: #FFFFFF;
@@ -249,6 +253,47 @@ li {
 
 
 
+
+
+
+/* about us page */
+.Compay-history-section {}
+
+.Compay-history-section .history-content-box {}
+
+.Compay-history-section .history-banner {
+  width: 1279px;
+  height: 299px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(to right, rgba(0, 0, 255, 0.371), rgba(0, 0, 255, 0.542)), url('../image/about/Frame 35597.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: var(--borderRadius10);
+  -webkit-border-radius: var(--borderRadius10);
+  -moz-border-radius: var(--borderRadius10);
+  -ms-border-radius: var(--borderRadius10);
+  -o-border-radius: var(--borderRadius10);
+}
+
+.Compay-history-section .history-content-box .history-banner p {
+  display: block;
+  text-align: center;
+  color: white;
+  font-size: 32px;
+}
+
+.Compay-history-section .history-content-box .history-banner p span {
+  width: 100%;
+  display: block;
+  text-align: center;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 50px;
+}
 
 
 
@@ -682,14 +727,6 @@ li {
   background-color: var(--Primary-Blue);
   color: white;
 }
-
-
-
-
-
-
-
-
 
 
 
@@ -1146,21 +1183,16 @@ li {
   padding-right: 50px;
 }
 
-.consultation-section .items .right-content p{
+.consultation-section .items .right-content p {
   width: 503px;
   font-size: 20px;
 }
+
 .consultation-section .items .right-content img {
   width: 96px;
   height: 96px;
   margin-right: 25px;
 }
-
-
-
-
-
-
 
 
 
