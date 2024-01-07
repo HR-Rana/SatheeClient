@@ -1071,7 +1071,7 @@ li {
 .choose-plan-sectin .plan-table-area table tfoot button {
   width: 270.331px;
   height: 66.622px;
-  background-color:transparent;
+  background-color: transparent;
   color: black;
   border: 1px solid rgba(50, 92, 244, 0.30);
   font-size: 20px;
@@ -1079,7 +1079,7 @@ li {
   box-shadow: 0px 0px white;
 }
 
-.choose-plan-sectin .plan-table-area  tfoot td:last-child  button{
+.choose-plan-sectin .plan-table-area tfoot td:last-child button {
   background-color: var(--Primary-Blue);
   color: white;
   font-size: 20px;
@@ -1108,7 +1108,53 @@ li {
 
 
 
+.consultation-section .consultation-box {
+  margin-top: 115px;
+}
 
+.consultation-section .items {
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  margin: 65px 0;
+}
+
+.consultation-section .items .left-img {
+  width: 48%;
+  padding: 25px;
+}
+
+.consultation-section .items .right-content {
+  width: 45%;
+  padding: 25px;
+}
+
+.consultation-section .items .right-content span {
+  display: flex;
+  margin-bottom: 34px;
+}
+
+.consultation-section .items .right-content h4 {
+  width: 360px;
+  height: 85px;
+  display: flex;
+  flex-direction: column-reverse;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 40px;
+  padding-right: 50px;
+}
+
+.consultation-section .items .right-content p{
+  width: 503px;
+  font-size: 20px;
+}
+.consultation-section .items .right-content img {
+  width: 96px;
+  height: 96px;
+  margin-right: 25px;
+}
 
 
 
