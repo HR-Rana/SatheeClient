@@ -157,6 +157,7 @@ li {
 .flex {
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 .section-title {
@@ -190,13 +191,7 @@ li {
 
 }
 
-.flex-box {
-  display: flex;
-  width: 1285px;
-  align-items: center;
-  margin: 0 auto;
-  padding: 20px 0;
-}
+
 
 .navigation-bar .logo {
   width: 20%;
@@ -568,6 +563,7 @@ li {
 
 .recently-poost-section .blog-item {
   width: 48%;
+  margin: 25px 0;
 }
 
 .recently-poost-section .blog-item img {
@@ -638,7 +634,7 @@ li {
 
 
 .recently-poost-section .pagination {
-  margin-top: 100px;
+  margin: 75px 0;
   display: flex;
   justify-content: center;
 }
@@ -1161,13 +1157,15 @@ li {
 
 
 /* Singup-page */
-.Singup-page{
+.Singup-page {
   margin-bottom: 60px;
 }
-.Singup-page .flex{
+
+.Singup-page .flex {
   display: flex;
   justify-content: space-between;
 }
+
 .contact-page .blur-text {
   width: 548.771px;
   height: 277.631px;
