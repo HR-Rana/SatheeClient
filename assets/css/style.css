@@ -310,21 +310,82 @@ li {
 
 
 
-.mission-section{
+.mission-section {
   margin-top: 100px;
   margin-bottom: 56px;
 }
 
-.mission-section .section-title small{
-  font-size:16px;
+.mission-section .section-title small {
+  font-size: 16px;
 }
-.mission-section .section-title h4{
+
+.mission-section .section-title h4 {
   font-size: 48px;
 }
-.mission-section .mission-text{
+
+.mission-section .mission-text {
   font-size: 24px;
   margin-top: 52px;
 }
+
+
+.Qualified-doctors-section .container {
+  padding: 30px;
+  border-radius: var(--borderRadius10);
+  background-color: var(--SectionBackgroundColor);
+  -webkit-border-radius: var(--borderRadius10);
+  -moz-border-radius: var(--borderRadius10);
+  -ms-border-radius: var(--borderRadius10);
+  -o-border-radius: var(--borderRadius10);
+}
+
+.Qualified-doctors-section .qualified-doctors-box {
+  display: inline-flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 33px;
+}
+
+.qualified-doctors-box .items-card {
+  width: 30%;
+  background-color: white;
+  padding: 30px;
+  margin: 25px 0;
+  box-shadow: 0px 15px 30px -20px rgba(50, 92, 244, 0.10);
+  border-radius: var(--borderRadius10);
+  -webkit-border-radius: var(--borderRadius10);
+  -moz-border-radius: var(--borderRadius10);
+  -ms-border-radius: var(--borderRadius10);
+  -o-border-radius: var(--borderRadius10);
+}
+
+.qualified-doctors-box .items-card .card-header {
+  display: flex;
+}
+
+.qualified-doctors-box .items-card .card-header img {
+  width: 80px;
+  height: 80px;
+
+}
+
+.qualified-doctors-box .items-card .card-header span {
+  display: flex;
+  width: 210px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 4px;
+  text-align: left;
+}
+
+.qualified-doctors-box .items-card .card-body {
+  margin-top: 30px;
+  text-align: justify;
+}
+
+
+
 
 
 
