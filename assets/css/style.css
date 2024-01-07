@@ -132,7 +132,8 @@ button {
 }
 
 a {
-  text-decoration: none;
+  
+  color: var(--Primary-Blue);
 }
 
 li {
@@ -1301,7 +1302,6 @@ li {
    color: var(--Primary-Blue) !important;
    text-decoration: underline;
 }
-
 
 
 
