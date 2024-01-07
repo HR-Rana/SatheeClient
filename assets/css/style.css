@@ -286,6 +286,7 @@ li {
   width: 415px;
   height: 415px;
   margin-left: 38px;
+  margin-top: -25px;
   transform: scaleY(1.05);
   -webkit-transform: scaleY(1.05);
   -moz-transform: scaleY(1.05);
@@ -300,9 +301,8 @@ li {
 
 .book-appointment .appointment-content {
   display: flex;
-  width: 550px;
-  height: 329px;
-  margin-left: -93px;
+  width: 50%;
+  height: 100%;
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
@@ -310,7 +310,7 @@ li {
 
 .book-appointment .appointment-content span h6 {
   display: flex;
-  padding: 10px;
+  padding: 10px 0;
   font-size: 24px;
   align-items: flex-start;
   gap: 10px;
@@ -324,6 +324,10 @@ li {
   font-style: normal;
   font-weight: 400;
   line-height: 30px;
+}
+.book-appointment .appointment-content button {
+ padding: 15px 25px;
+ margin-left: -10px;
 }
 
 .book-appointment p span {
