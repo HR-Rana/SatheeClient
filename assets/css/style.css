@@ -544,13 +544,16 @@ li {
 .recently-poost-section {
   margin-top: 57px;
 }
-.recently-poost-section .flex-box{
+
+.recently-poost-section .flex-box {
   align-items: flex-start;
 }
-.recently-poost-section .title h4{
- padding-bottom: 60px ;
- margin-left: 15px;
+
+.recently-poost-section .title h4 {
+  padding-bottom: 60px;
+  margin-left: 15px;
 }
+
 .recently-poost-section .left-site-posts {
   width: 60%;
 
@@ -821,17 +824,18 @@ li {
   margin-top: 77px;
 }
 
-.recently-poost-section .search-tags ul{
+.recently-poost-section .search-tags ul {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
 }
-.recently-poost-section .search-tags ul li{
+
+.recently-poost-section .search-tags ul li {
   width: 30%;
   text-align: center;
   border: 1px solid black;
   padding: 10px 20px;
-  margin:10px 0px;
+  margin: 10px 0px;
   font-weight: 600;
   letter-spacing: .2px;
   cursor: pointer;
@@ -841,7 +845,8 @@ li {
   -ms-border-radius: var(--borderRadius10);
   -o-border-radius: var(--borderRadius10);
 }
-.recently-poost-section .search-tags ul li.active{
+
+.recently-poost-section .search-tags ul li.active {
   background-color: var(--Primary-Blue);
   color: white;
 
@@ -889,7 +894,8 @@ li {
 
 
 
-/* contact page */
+/* contact page and login page styless here..!*/
+
 .contact-page {
   background: #F2F5FF;
 }
@@ -948,8 +954,19 @@ li {
 
 }
 
-.contact-page span .country small svg {
-  margin-left: 4px;
+.contact-page span {
+  position: relative;
+}
+
+.contact-page span img {
+  position: absolute;
+  top: 20px;
+  right: 10px;
+  cursor: pointer;
+}
+
+.contact-page form span small {
+  font-size: 18px;
 }
 
 .contact-page form span small {
@@ -983,6 +1000,16 @@ li {
   align-items: center;
   font-size: 16px;
   font-weight: 600;
+}
+
+.contact-page form span label span {
+  height: 30px;
+  display: flex;
+  align-self: center;
+  position: relative;
+  top: 70%;
+  margin-left: 10px;
+  color: var(--Primary-Blue);
 }
 
 .contact-page form span input[type="checkbox"]::after {
@@ -1118,9 +1145,77 @@ li {
   z-index: -222;
 }
 
+.contact-page .login-img {
+  width: 627.167px;
+  height: 870.507px;
+  position: relative;
+}
+
+.contact-page .login-img img {
+  width: 100%;
+  object-fit: contain;
+}
+
+.contact-page .blur-text {
+  width: 548.771px;
+  height: 277.631px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 15px 30px;
+  border-radius: 10px;
+  background: rgba(255, 242, 242, 0.13);
+  backdrop-filter: blur(50px);
+  position: absolute;
+  bottom: 25px;
+  left: 40px;
+  color: #fff;
+  border-radius: var(--borderRadius10);
+  -webkit-border-radius: var(--borderRadius10);
+  -moz-border-radius: var(--borderRadius10);
+  -ms-border-radius: var(--borderRadius10);
+  -o-border-radius: var(--borderRadius10);
+}
+
+.contact-page .login-img .blur-text p {
+  width: 95%;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32.967px;
+  margin-top: 36px;
+}
+
+.contact-page .login-img .blur-text button {
+  height: 46.302px;
+  display: flex;
+  flex-direction: row;
+  padding: 10px 25px;
+}
+
+.contact-page .login-img .blur-text button img {
+  width: 20px;
+  height: 20px;
+}
 
 
-
+.contact-page .login-other-way hr {
+  stroke-width: 1px;
+  stroke: #DBDBDB;
+  position: relative;
+  z-index: -54632;
+}
+.contact-page .login-other-way small{
+  width: 40%;
+  margin: 0 auto;
+  justify-content: center;
+  margin-bottom: -15px;
+  font-size: 16px;
+  padding: 5px;
+  background-color:var(--SectionBackgroundColor);
+  z-index: 5555;
+}
 
 
 
