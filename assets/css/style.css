@@ -443,6 +443,14 @@ header {
 
 
 
+.meet-leader-section .leader-card img {
+  width: 350px;
+  height: 230px;
+  padding: 0px;
+  object-fit: cover;
+  background-color: red;
+}
+
 .meet-leader-section .leader-card .card-body {
   padding: 0px 16px;
 }
@@ -1263,7 +1271,7 @@ header {
   font-size: 15px;
 }
 
-.choose-plan-sectin .plan-box .heading{
+.choose-plan-sectin .plan-box .heading {
   margin-top: 40px;
 }
 
@@ -1277,6 +1285,7 @@ header {
   color: #d1d1d1;
   font-size: 15px;
 }
+
 .choose-plan-sectin .plan-box .heading span {
   display: flex;
   align-items: center;
@@ -1362,6 +1371,7 @@ header {
 .consultation-section {
   margin-top: 115px;
 }
+
 .consultation-section .consultation-box {
   margin-top: 115px;
 }
