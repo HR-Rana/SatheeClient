@@ -1263,6 +1263,10 @@ header {
   font-size: 15px;
 }
 
+.choose-plan-sectin .plan-box .heading{
+  margin-top: 40px;
+}
+
 .choose-plan-sectin .plan-box .heading h4 {
   font-size: 48px;
   font-style: normal;
@@ -1273,8 +1277,14 @@ header {
   color: #d1d1d1;
   font-size: 15px;
 }
+.choose-plan-sectin .plan-box .heading span {
+  display: flex;
+  align-items: center;
+}
 
-.choose-plan-sectin .plan-box .heading button {
+.choose-plan-sectin .plan-box .heading span button {
+  display: flex;
+  align-items: center;
   width: 170.958px;
   height: 47.82px;
   font-size: 10px;
