@@ -1825,7 +1825,8 @@ li {
 .prortal-layout .left-sitebar {
   width: 293px;
   height: 100vh;
-
+  position: sticky;
+  top: 0;
   background-color: var(--SectionBackgroundColor);
   padding: 32px;
   padding-top: 84px;
@@ -1909,4 +1910,107 @@ li {
   color: var(--Primary-Blue);
   font-size: 32px;
   font-weight: 700;
+}
+
+.prortal-layout .weather-box {
+  display: flex;
+  align-items: center;
+  background-color: var(--SectionBackgroundColor);
+  border-radius: 12px;
+  padding: 25px 30px;
+  margin: 25px 0;
+}
+
+.prortal-layout .latest-overview h4 {
+  font-size: 32px;
+  margin-top: 58px;
+}
+
+.prortal-layout .overview-items-box {
+  margin-top: 28px;
+}
+
+.prortal-layout .overview-items-box .item {
+  width: 32%;
+  display: flex;
+  padding: 15px;
+  border-radius: 12px;
+  -webkit-border-radius: 12px;
+  -moz-border-radius: 12px;
+  -ms-border-radius: 12px;
+  -o-border-radius: 12px;
+  padding: 20;
+}
+
+.prortal-layout .overview-items-box .item small {
+  font-size: 16px;
+}
+
+.prortal-layout .overview-items-box .item h6 {
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.prortal-layout .overview-items-box .item:nth-child(1) {
+  background: rgba(50, 244, 69, 0.10);
+}
+
+.prortal-layout .overview-items-box .item .circle {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  align-self: center;
+  margin-right: 20px;
+  border: 5px solid #55A55E;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
+.prortal-layout .overview-items-box .item:nth-child(2) .circle {
+  border: 5px solid #F10000;
+}
+
+.prortal-layout .overview-items-box .item:nth-child(3) .circle {
+  border: 5px solid #FFD206;
+}
+
+.prortal-layout .overview-items-box .item:nth-child(2) {
+  background: rgba(244, 50, 50, 0.05);
+}
+
+.prortal-layout .overview-items-box .item:nth-child(3) {
+  background: rgba(244, 50, 50, 0.05);
+}
+
+.prortal-layout .overview-items-box .item:nth-child(3) {
+  background: #FDFFEC;
+}
+
+
+.prortal-layout .science-section {
+  padding: 50px;
+  margin-top: 60px;
+  border-radius: 20px;
+  /*box-shadow: 0px 2.72px 3.712px 0px rgba(0, 0, 0, 0.01), 0px 12.16px 8.576px 0px rgba(0, 0, 0, 0.01), 30px 30.24px 20px 0px rgba(0, 0, 0, 0.02);
+ */
+  box-shadow: var(--box-shadow);
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+
+.prortal-layout .science-section h4 {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.prortal-layout .science-section p {
+  color: #8E8F8F;
+  font-size: 13px;
+  margin-bottom: 18px;
 }
