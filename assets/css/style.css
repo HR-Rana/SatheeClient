@@ -2135,6 +2135,28 @@ footer .flogo img {
   margin-bottom: 28px;
 }
 
+footer .flogo p {
+  width: 90%;
+  font-size: 16px;
+  margin-bottom: 15px;
+  text-align: justify;
+}
+
+footer .flogo .social-icons {
+  width: 40%;
+}
+
+footer .flogo .social-icons span {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 27px;
+}
+
+footer .flogo .social-icons span svg {
+  cursor: pointer;
+}
+
 footer .footer-item {
   width: 28%;
 }
@@ -2150,6 +2172,12 @@ footer .footer-item:nth-child(2) {
 footer .footer-item:nth-child(3) {
   width: 15%;
 }
+
+footer .quick-link ul li{
+  padding: 6px 0;
+  font-size: 16px;
+}
+
 
 footer .subscribe-input {
   height: 100%;
