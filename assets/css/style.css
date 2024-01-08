@@ -1,5 +1,6 @@
 /* fonts */
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
 
 /* =========== reset css =============== */
 *,
@@ -17,7 +18,7 @@ body {
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
   /* font-family: 'Roboto', sans-serif; */
-  font-family: 'time new roman';
+  font-family: 'Georama', sans-serif;
   font-size: 16px;
   color: #3d3d3d;
   background-color: #FFFFFF;
@@ -63,7 +64,7 @@ h6 {
   --shadow-deep: box-shadow: 0px 15px 30px -10px rgba(0, 0, 0, 0.10);
   --shadow-narrow: box-shadow: 0px 4px 16px rgba(50, 92, 244, 0.25);
   --shadow-inner: box-shadow: 5px 15px 30px rgba(50, 92, 244, 0.20);
-  --borderColor:rgba(50, 92, 244, 0.30);
+  --borderColor: rgba(50, 92, 244, 0.30);
   --borderRadius10: 10px;
   --SectionBackgroundColor: #f2f5ff;
   --borderRadius: 10px;
@@ -152,8 +153,9 @@ li {
 }
 
 .container {
-  width: 1320px;
+  width: 1200px;
   margin: 0 auto;
+  padding: 0px 15px;
 }
 
 .flex-box {
@@ -421,8 +423,9 @@ li {
 .meet-leader-section .leader-card .card-body {
   padding: 0px 16px;
 }
-.meet-leader-section .leader-card .card-body p{
-  padding:10px;
+
+.meet-leader-section .leader-card .card-body p {
+  padding: 10px;
 }
 
 .meet-leader-section .leader-card .card-body h4 {
@@ -895,6 +898,11 @@ li {
   width: 361px;
   height: 300px;
   background-color: black;
+  border-radius: var(--borderRadius10);
+  -webkit-border-radius: var(--borderRadius10);
+  -moz-border-radius: var(--borderRadius10);
+  -ms-border-radius: var(--borderRadius10);
+  -o-border-radius: var(--borderRadius10);
 }
 
 .recently-poost-section .ads-zone {
@@ -909,9 +917,10 @@ li {
   background-color: #000;
   position: absolute;
   top: 0;
-  right: 0;
+  right: 5px;
   color: #fff;
   padding: 10px;
+
 }
 
 .recently-poost-section .ads-zone h4 {
@@ -1801,4 +1810,103 @@ li {
   font-style: normal;
   font-weight: 400;
   line-height: 30px;
+}
+
+
+
+
+
+/* Portal page styles */
+
+.prortal-layout {
+  display: flex;
+}
+
+.prortal-layout .left-sitebar {
+  width: 293px;
+  height: 100vh;
+
+  background-color: var(--SectionBackgroundColor);
+  padding: 32px;
+  padding-top: 84px;
+}
+
+.prortal-layout .left-sitebar .logo {
+  width: 210px;
+  height: 71.763px;
+  margin-bottom: 23px;
+}
+
+.prortal-layout .left-sitebar .profile {
+  display: flex;
+  width: 241px;
+  height: 90px;
+  align-items: flex-start;
+  gap: 8px;
+}
+
+.prortal-layout .left-sitebar .profile h6 {
+  font-size: 16px;
+  font-family: Poppins;
+}
+
+.prortal-layout .left-sitebar .profile p {
+  font-size: 12px;
+}
+
+.prortal-layout .left-sitebar .sidebar-navitems {
+  margin-top: 112px;
+}
+
+
+.prortal-layout .left-sitebar .sidebar-navitems ul li {
+  margin: 30px 0;
+  display: flex;
+  align-items: center;
+}
+
+.prortal-layout .left-sitebar .sidebar-navitems ul li:last-child svg {
+  transform: rotate(180deg);
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+}
+
+.prortal-layout .left-sitebar .sidebar-navitems li.active a {
+  color: var(--Primary-Blue);
+  font-weight: 700;
+}
+
+.prortal-layout .left-sitebar .sidebar-navitems ul li a {
+  font-size: 16px;
+  font-weight: 700;
+  text-decoration: none;
+  color: #3d3d3d;
+  display: flex;
+}
+
+.prortal-layout .left-sitebar .sidebar-navitems ul a svg {
+  width: 22px;
+  height: 22px;
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.prortal-layout .right-siteContent {
+  width: 80%;
+  padding: 90px;
+  padding-bottom: 120px;
+}
+
+.prortal-layout .right-siteContent .page-title {
+  display: flex;
+  align-items: center;
+}
+
+.prortal-layout .right-siteContent .page-title h5 span {
+  color: var(--Primary-Blue);
+  font-size: 32px;
+  font-weight: 700;
 }
