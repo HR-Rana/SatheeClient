@@ -62,9 +62,9 @@ h6 {
   --Text-Gray: #3D3D3D;
   --White: #FFFFFF;
   --box-shadow: 15px 15px 30px rgba(166.06, 170.58, 188.70, 0.50);
-  --shadow-deep: box-shadow: 0px 15px 30px -10px rgba(0, 0, 0, 0.10);
-  --shadow-narrow: box-shadow: 0px 4px 16px rgba(50, 92, 244, 0.25);
-  --shadow-inner: box-shadow: 5px 15px 30px rgba(50, 92, 244, 0.20);
+  --shadow-deep: 0px 15px 30px -10px rgba(0, 0, 0, 0.10);
+  --shadow-narrow: 0px 4px 16px rgba(50, 92, 244, 0.25);
+  --shadow-inner: 5px 15px 30px rgba(50, 92, 244, 0.20);
   --borderColor: rgba(50, 92, 244, 0.30);
   --borderRadius10: 10px;
   --SectionBackgroundColor: #f2f5ff;
@@ -248,7 +248,7 @@ header {
 
 .navigation-bar ul li a.active {
   color: var(--Primary-Blue);
-  display: none;
+  font-weight: 700;
 }
 
 .navigation-bar ul li:last-child {
@@ -613,6 +613,7 @@ header {
 .Featured-month-section .content-card {
   display: flex;
   width: 100%;
+  height: 319px;
   margin: 16px 0;
   background-color: white;
   padding: 10px;
@@ -641,7 +642,7 @@ header {
 
 .Featured-month-section .content-card .left-img {
   width: 50%;
-  height: 271px;
+  height: 100%;
   padding: 20px;
   object-fit: cover;
 
@@ -649,6 +650,7 @@ header {
 
 .Featured-month-section .content-card .left-img img {
   width: 100%;
+  height: 100%;
 }
 
 .Featured-month-section .content-texts {
@@ -1252,7 +1254,7 @@ header {
 }
 
 .choose-plan-sectin .plan-box .right-site-plan {
-  width:60%;
+  width: 60%;
   height: 518.851px;
   background-color: var(--Primary-Blue);
   padding: 45px;
@@ -1452,9 +1454,10 @@ header {
   margin-top: 5px;
 }
 
-.contact-page .flex{
+.contact-page .flex {
   justify-content: space-between;
 }
+
 .contact-page .contact-form {
   width: 40%;
 }
@@ -1714,19 +1717,20 @@ header {
 }
 
 .contact-page .blur-text {
-  width: 548.771px;
+  width: 80%;
   height: 277.631px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   padding: 15px 30px;
+  margin: 0;
   border-radius: 10px;
   background: rgba(255, 242, 242, 0.13);
   backdrop-filter: blur(50px);
   position: absolute;
-  bottom: 25px;
-  left: 40px;
+  bottom: 0px;
+  left: 75px;
   color: #fff;
   border-radius: var(--borderRadius10);
   -webkit-border-radius: var(--borderRadius10);
@@ -2091,4 +2095,97 @@ header {
 
 .prortal-layout .science-section h4 {
   font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+/* footer styles section */
+
+footer {
+  width: 100%;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  padding: 50px 0;
+  background: linear-gradient(to right, #042cbbc4, #325cf4ba);
+  color: #FFF;
+  position: relative;
+}
+
+footer a {
+  color: #FFF;
+}
+
+
+footer .footer-watermark img {
+  width: 30%;
+  height: 100%;
+  position: absolute;
+  top: -0%;
+  right: -0%;
+}
+
+footer .flogo img {
+  margin-bottom: 28px;
+}
+
+footer .footer-item {
+  width: 28%;
+}
+
+footer .footer-item h5 {
+  margin-bottom: 30px;
+}
+
+footer .footer-item:nth-child(2) {
+  width: 25%;
+}
+
+footer .footer-item:nth-child(3) {
+  width: 15%;
+}
+
+footer .subscribe-input {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+footer .subscribe-input span {
+  width: 100%;
+  margin: 15px auto;
+  color: #fff !important;
+  background-color: #072c9c;
+  background: linear-gradient(318deg, rgba(0, 0, 0, 0.00) 0%, rgba(255, 255, 255, 0.00) 105.18%), rgba(255, 255, 255, 0.30);
+
+}
+
+footer .subscribe-input input {
+  width: 100%;
+  border: none;
+  padding: 15px;
+  background-color: #012cac;
+  border-radius: var(--borderRadius10);
+  -webkit-border-radius: var(--borderRadius10);
+  -moz-border-radius: var(--borderRadius10);
+  -ms-border-radius: var(--borderRadius10);
+  -o-border-radius: var(--borderRadius10);
+}
+
+footer .subscribe-input input:nth-child(2) {
+  width: 100%;
+  border: none;
+  padding: 15px;
+  font-size: 16px;
+  background-color: var(--SectionBackgroundColor);
+  margin: 15px 0;
+  cursor: pointer;
+  color: var(--Primary-Blue);
+  font-weight: 700;
 }
