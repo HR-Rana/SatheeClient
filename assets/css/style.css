@@ -154,7 +154,7 @@ li {
 }
 
 .container {
-  width: 1400px;
+  width: 1300px;
   margin: 0 auto;
   padding: 0px 15px;
 }
@@ -281,6 +281,73 @@ header {
 
 
 
+
+
+/* Homepage styless  */
+
+.join-waitinglist-today {
+  margin-top: 275px;
+}
+
+.join-waitinglist-today .container {
+  height: 489px;
+  background: url('../image/Home/Group 355645.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: right right;
+  border-radius: var(--borderRadius10);
+  -webkit-border-radius: var(--borderRadius10);
+  -moz-border-radius: var(--borderRadius10);
+  -ms-border-radius: var(--borderRadius10);
+  -o-border-radius: var(--borderRadius10);
+}
+
+.join-waitinglist-today .left-content {
+  width: 45%;
+  height: 489px;
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.join-waitinglist-today .left-content h3 {
+  font-size: 48px;
+  font-weight: 700;
+
+}
+.join-waitinglist-today .left-content p {
+  font-size: 20px;
+  margin: 20px 0;
+}
+.join-waitinglist-today .left-content h6 {
+  font-size: 24px;
+  margin: 20px 0;
+}
+.join-waitinglist-today .left-content button {
+ width: 40%;
+ padding: 15px 30px;
+ font-weight: 700;
+}
+
+.join-waitinglist-today .right-content {
+  width: 45%;
+  position: relative;
+}
+
+.join-waitinglist-today .right-content img {
+  position: absolute;
+  right: 25px;
+  bottom: 0;
+}
+
+
+
+
+
+
+
+
+
 /* about us page */
 .Compay-history-section {
   margin-top: 100px;
@@ -288,6 +355,7 @@ header {
 
 .Compay-history-section .history-content-box {
   width: 1279px;
+  margin: 0 auto;
   margin-top: 45px;
 }
 
@@ -295,6 +363,7 @@ header {
   width: 1279px;
   height: 299px;
   display: flex;
+  margin: 0 auto;
   align-items: center;
   justify-content: center;
   background: linear-gradient(to right, rgba(0, 0, 255, 0.371), rgba(0, 0, 255, 0.542)), url('../image/about/Frame 35597.png');
@@ -2173,7 +2242,7 @@ footer .footer-item:nth-child(3) {
   width: 15%;
 }
 
-footer .quick-link ul li{
+footer .quick-link ul li {
   padding: 6px 0;
   font-size: 16px;
 }
