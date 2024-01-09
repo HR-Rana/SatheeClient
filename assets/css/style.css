@@ -285,6 +285,83 @@ header {
 
 /* Homepage styless  */
 
+.Hero-section {
+  padding: 0px 0;
+  background-color: var(--SectionBackgroundColor);
+  position: relative;
+}
+
+.Hero-section .hero-left {
+  width: 50%;
+  padding: 75px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.Hero-section .hero-left .hero-dna img{
+  height: 100%;
+  object-fit: contain;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 55;
+}
+
+.Hero-section .hero-left h3 {
+  font-size: 48px;
+}
+
+.Hero-section .hero-left h3 span {
+  font-size: 64px;
+  display: block;
+  font-weight: 700;
+  color: var(--Primary-Blue);
+}
+
+.Hero-section .hero-left p {
+  margin: 20px 0;
+  font-size: 24px;
+}
+
+.Hero-section .hero-left button {
+  width: 30%;
+  padding: 15px 30px;
+  font-weight: 600;
+}
+.Hero-section .container{
+  position: relative;
+}
+.Hero-section .hero-right{
+  width: 45%;
+  position: absolute;
+  right: 0;
+  bottom: 0%;
+}
+.Hero-section .hero-right .bg-image img{
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+}
+
+.Hero-section .hero-right .doctor-slide img{
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  right: 0%;  
+  bottom: -10px;
+}
+
+
+
+
+
+
+
+
 .join-waitinglist-today {
   margin-top: 275px;
 }
@@ -315,18 +392,21 @@ header {
   font-weight: 700;
 
 }
+
 .join-waitinglist-today .left-content p {
   font-size: 20px;
   margin: 20px 0;
 }
+
 .join-waitinglist-today .left-content h6 {
   font-size: 24px;
   margin: 20px 0;
 }
+
 .join-waitinglist-today .left-content button {
- width: 40%;
- padding: 15px 30px;
- font-weight: 700;
+  width: 40%;
+  padding: 15px 30px;
+  font-weight: 700;
 }
 
 .join-waitinglist-today .right-content {
