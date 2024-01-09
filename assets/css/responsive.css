@@ -1,7 +1,31 @@
 @media only screen and (min-width: 1200px) {
 
+    /* nav bar styles */
+    .navigation-bar {
+        width: 80%;
+        height: 120px;
+    }
+
+
+    /* 404 page */
+    .error-text .button button {
+        width: 35%;
+        padding: 15px 30px;
+        font-weight: 700;
+    }
+
+    /* footer section */
+    footer .flex-box {
+        display: flex;
+
+    }
+
+    * footer .footer-item {
+        width: 48%;
+    }
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 600px) {}
 
-}
+
+@media (max-width:400px) {}

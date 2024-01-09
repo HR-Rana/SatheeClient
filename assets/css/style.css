@@ -154,7 +154,7 @@ li {
 }
 
 .container {
-  width: 1300px;
+  width: 90%;
   margin: 0 auto;
   padding: 0px 15px;
 }
@@ -203,12 +203,14 @@ header {
 }
 
 .navigation-bar {
-  width: 75%;
+  width: 80%;
   height: 120px;
   margin: 0 auto;
   display: flex;
   align-items: center;
-  justify-content: center;
+
+  background-color: red;
+  padding: 0;
 }
 
 
@@ -222,14 +224,16 @@ header {
 }
 
 .navigation-bar .nav-items {
-  width: 80%;
+  width:100%;
   display: flex;
   align-items: center;
   justify-content: end;
+  background-color: beige;
 }
 
 .navigation-bar .nav-items ul {
   width: 80%;
+  background-color: green;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -486,11 +490,17 @@ header {
 
 }
 
-.testimonials-box .owl-nav .owl-next span {
-  width: 52px;
+.testimonials-box .owl-nav  button {
+  width: 50px;
+  height: 50px;
+  background-color: green;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   font-size: 40px !important;
   box-shadow: var(--shadow-narrow);
   border-radius: 50%;
+  padding-top: -5px;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
@@ -508,11 +518,17 @@ header {
   justify-content: center;
 }
 
-.testimonials-box .owl-nav .owl-prev span {
-  width: 52px;
+.testimonials-box .owl-nav .owl-prev button{
+  width: 50px;
+  height: 50px;
   font-size: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   color: #3d3d3d;
   box-shadow: var(--shadow-narrow);
+  background-color: green;
+  color: white;
   border-radius: 50%;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
@@ -818,7 +834,7 @@ header {
 
 
 
-
+/* QUALIFICATIONS DOCTORS SECTION STYLES */
 
 .Qualified-doctors-section .container {
   padding: 30px;
@@ -880,6 +896,7 @@ header {
 
 
 
+/* MEETS LEADER SECTION */
 .meet-leader-section .section-title {
   margin: 60px auto;
 }
@@ -1309,6 +1326,7 @@ header {
   object-fit: contain;
 }
 
+/* BLOG PAGE END */
 
 
 
@@ -1316,8 +1334,7 @@ header {
 
 
 
-
-
+/* post section styless */
 
 
 .recently-poost-section {
@@ -1431,14 +1448,26 @@ header {
 
 
 .recently-poost-section .pagination {
+  width: 100%;
   margin: 75px 0;
   display: flex;
   justify-content: center;
 }
 
 .recently-poost-section .pagination ul button {
-  background-color: red;
+  width: 250px;
   display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0;
+}
+.recently-poost-section .pagination ul button svg{
+ width: 20px;
+ background-color: green;
+}
+.recently-poost-section .pagination ul button span{
+ width: 20px;
+ background-color: green;
 }
 
 .recently-poost-section .pagination ul {
@@ -1481,7 +1510,7 @@ header {
 
 
 
-/* right site */
+/* BLOG PAGE POST SECTION right site */
 .recently-poost-section .right-site-content {
   width: 30%;
   display: flex;
@@ -2735,13 +2764,13 @@ header {
   margin: 0 auto;
 }
 .error-text .button a{
-  width:100%;
+  width:fit-content;
   display: flex;
  justify-content: center;
   margin: 0 auto;
 }
 .error-text .button button{
-  width:15%;
+  width:105%;
   padding: 15px 30px;
   font-weight: 700;
 }
@@ -2773,6 +2802,7 @@ footer .footer-watermark img {
   position: absolute;
   top: -0%;
   right: -0%;
+  z-index: -2222222;
 }
 
 footer .flogo img {
@@ -2842,6 +2872,7 @@ footer .subscribe-input input {
   width: 100%;
   border: none;
   padding: 15px;
+  color: white !important;
   background-color: #012cac;
   border-radius: var(--borderRadius10);
   -webkit-border-radius: var(--borderRadius10);
@@ -2849,8 +2880,10 @@ footer .subscribe-input input {
   -ms-border-radius: var(--borderRadius10);
   -o-border-radius: var(--borderRadius10);
 }
-
-footer .subscribe-input input:nth-child(2) {
+footer .subscribe-input::placeholder{
+  color: white;
+}
+footer .subscribe-input input[type="submit"]{
   width: 100%;
   border: none;
   padding: 15px;
@@ -2858,6 +2891,6 @@ footer .subscribe-input input:nth-child(2) {
   background-color: var(--SectionBackgroundColor);
   margin: 15px 0;
   cursor: pointer;
-  color: var(--Primary-Blue);
+  color: var(--SecondaryBlue);
   font-weight: 700;
 }
