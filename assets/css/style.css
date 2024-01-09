@@ -648,11 +648,12 @@ header {
   -o-border-radius: var(--borderRadius10);
 }
 
-.faq-section .right-site-FAQs .faq-item h4{
+.faq-section .right-site-FAQs .faq-item h4 {
   font-size: 24px;
   font-weight: 700;
 }
-.faq-section .right-site-FAQs .faq-item span{
+
+.faq-section .right-site-FAQs .faq-item span {
   width: 40px;
   height: 40px;
   position: absolute;
@@ -660,17 +661,24 @@ header {
   top: 25px;
   font-size: 20px;
 }
-.faq-section .right-site-FAQs .faq-item p{
+
+.faq-section .right-site-FAQs .faq-item p {
   text-align: justify;
   font-size: 16px;
 }
 
 
 
+/* doctors testimonials section */
 
+.Doctors-testimonials .review-heading .profile {
+  width: 52%;
+}
 
-
-
+.Doctors-testimonials .owl-nav .owl-prev {
+  width: 62px;
+  height: 60px;
+}
 
 
 
@@ -905,10 +913,7 @@ header {
   -o-border-radius: var(--borderRadius10);
 }
 
-.book-appointment .left-site-img {
 
-  background-color: green;
-}
 
 .book-appointment .left-site-img {
   width: 415px;
@@ -1171,57 +1176,72 @@ header {
 
 
 /* blog section styles for Home page */
-.Blog-section.Featured-month-section{
-  background-color:transparent;
+.Blog-section.Featured-month-section {
+  background-color: transparent;
+
 }
-.Blog-section .container{
+
+.Blog-section .container {
   padding: 50px;
+  padding-bottom: 30px !important;
   background-color: var(--SectionBackgroundColor);
   border-radius: var(--borderRadius10);
   -webkit-border-radius: var(--borderRadius10);
   -moz-border-radius: var(--borderRadius10);
   -ms-border-radius: var(--borderRadius10);
   -o-border-radius: var(--borderRadius10);
+  margin-bottom: 80px;
 }
-.Blog-section .button{
+
+.Blog-section .button {
   display: flex;
   align-items: center;
   justify-content: center;
   text-align: center;
   width: 100%;
 }
-.Blog-section .button button{
- padding: 10px 30px;
- font-weight: 700;
+
+.Blog-section .button button {
+  padding: 10px 30px;
+  font-weight: 700;
 }
-.Blog-section .section-title{
+
+.Blog-section .section-title {
   margin-bottom: 25px;
 }
+
 .Blog-section .left-site-content {
   width: 60%;
 }
+
 .Blog-section .left-img {
   width: 30%px;
 
 }
-.Blog-section .content-card .left-img img{
+
+.Blog-section .content-card .left-img img {
   width: 100%;
 }
-.Blog-section .content-texts .card-body{
+
+.Blog-section .content-texts .card-body {
   width: 100%;
   font-size: 12px;
 }
-.Blog-section .content-texts .card-body .img{
+
+.Blog-section .content-texts .card-body .img {
   display: flex;
   flex-wrap: nowrap;
 }
+
 .Blog-section .right-site-videos {
   width: 38%;
 }
+
 .Blog-section .items .video {
   background-color: transparent;
 }
-.Blog-section .items .video img{
+
+.Blog-section .items .video img {
   width: 100%;
   height: 100%;
   object-fit: contain;
@@ -1603,10 +1623,10 @@ header {
 
 /* Services page styles */
 
-
 .why-choose-us {
   padding: 75px 0;
 }
+
 
 .why-choose-us .section-title small {
   color: var(--Primary-Blue);
@@ -1648,8 +1668,10 @@ header {
   margin-top: 25px;
 }
 
+.Service-offer-section .section-title {
+  width: 75%;
 
-
+}
 
 .choose-plan-sectin {
   margin-top: 90px;
@@ -1831,15 +1853,63 @@ header {
 
 
 
-
+/* consultation section styless in service page */
 
 .consultation-section {
   margin-top: 115px;
 }
 
-.consultation-section .consultation-box {
+.weekly-consultation .weekly-consultation-box {
   margin-top: 115px;
+  background: #F2F5FF;
+  padding: 50px;
+  position: relative;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
 }
+
+.weekly-consultation .left-site-img {
+  width: 38%;
+  height: 350px;
+}
+.weekly-consultation .weekly-consultation-box {
+  position: relative !important;
+}
+.weekly-consultation .left-site-img span{
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+.weekly-consultation .left-site-img span img{
+  width: 85%;
+  height: 600px;
+ 
+}
+
+
+.weekly-consultation .right-site-content {
+  width:55%;
+  position: relative;
+}
+
+.weekly-consultation .right-site-content h3 {
+  font-size: 48px;
+  font-weight: 700;
+}
+
+.weekly-consultation .right-site-content p {
+  font-size: 24px;
+  margin-top: 20px;
+}
+
+
+
+
+
+
 
 .consultation-section .items {
   width: 100%;
