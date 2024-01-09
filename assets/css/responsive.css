@@ -1,10 +1,113 @@
 @media only screen and (min-width: 1200px) {
 
+    .Hero-section .hero-left h3 span {
+        font-size: 56px;
+    }
+
+    .Hero-section .hero-right {
+        width: 46%;
+        position: absolute;
+        right: 0;
+        bottom: 0%;
+    }
+
+
+}
+
+
+@media only screen and (max-width: 1200px) {
+
     /* nav bar styles */
     .navigation-bar {
         width: 80%;
         height: 120px;
     }
+
+    .section-title {
+        width: 65%;
+    }
+
+    /* hero section */
+    .Hero-section .hero-left {
+        width: 50%;
+        padding: 45px 0;
+    }
+
+    .Hero-section .hero-left h3 {
+        font-size: 42px;
+    }
+
+    .Hero-section .hero-left h3 span {
+        font-size: 48px;
+    }
+
+    .Hero-section .hero-right {
+        width: 50%;
+        position: absolute;
+        right: 0;
+        bottom: 0%;
+    }
+
+    .Hero-section .hero-left button {
+        width: 50%;
+    }
+
+    .why-choose-us .chooseUs-content-box {
+        flex-wrap: wrap;
+    }
+
+    .why-choose-us .content {
+        width: 32%;
+        margin: 15px 0;
+        text-align: center;
+    }
+
+    /* join our waiting list section */
+    .join-waitinglist-today {
+        margin-top: 155px;
+    }
+
+
+    .join-waitinglist-today .left-content {
+        height: fit-content;
+        margin: auto auto;
+        margin-top: 25px;
+        padding: 45px 0;
+        padding-bottom: 50px !important;
+
+    }
+
+    .join-waitinglist-today .left-content h3 {
+        font-size: 42px;
+        line-height: 45px;
+    }
+
+    .join-waitinglist-today .container {
+        height: fit-content;
+    }
+
+    .join-waitinglist-today .left-content {
+        height: 100%;
+        padding: 25px 0;
+    }
+
+    .join-waitinglist-today .left-content p {
+        margin: 10px 0;
+    }
+
+    .join-waitinglist-today .left-content .button {
+        padding: 0;
+        margin-top: 0;
+    }
+
+    .join-waitinglist-today .right-content img {
+        width: 85%;
+        position: absolute;
+        right: 25px;
+        bottom: 0;
+    }
+
+
 
 
     /* 404 page */
@@ -17,12 +120,94 @@
     /* footer section */
     footer .flex-box {
         display: flex;
-
     }
 
     * footer .footer-item {
         width: 48%;
     }
+}
+
+@media only screen and (max-width:992px) {
+    .section-title {
+        width: 75%;
+    }
+
+    .why-choose-us .chooseUs-content-box {
+        flex-wrap: wrap;
+    }
+
+    .why-choose-us .chooseUs-content-box .content {
+        width: 30%;
+        height: 100%;
+        box-sizing: border-box;
+    }
+
+    .why-choose-us .content img {
+        width: 100px;
+        height: 100px;
+    }
+
+    .why-choose-us .content p {
+        margin-top: 0px;
+    }
+
+
+    /* join us waiting list */
+    .join-waitinglist-today {
+        margin-top: 100px;
+    }
+
+    .join-waitinglist-today .flex-box {
+        display: block;
+    }
+
+    .join-waitinglist-today .left-content {
+        width: 85%;
+        padding-top: 25px !important;
+        text-align: center;
+    }
+
+    .join-waitinglist-today .left-content button {
+        width: 40%;
+        margin: 0 auto;
+    }
+
+    .join-waitinglist-today .right-content {
+        width: 75%;
+        display: flex;
+        justify-content: center;
+        margin: 0 auto;
+    }
+
+    .join-waitinglist-today .right-content img {
+        position: static;
+        display: flex;
+        justify-content: center;
+        margin: 0 auto;
+    }
+
+
+    /*TESTIMONIALS SECTION */
+    .what-people-think-aboutus .testimonials-box {
+        margin-top: 50px;
+        display: block;
+    }
+
+    .faq-section .faq-box {
+        display: block;
+    }
+
+    .faq-section .left-img {
+        width: 60%;
+        margin: 30px auto;
+    }
+
+    .faq-section .faq-box .right-site-FAQs {
+        width: 70%;
+        margin: 0 auto;
+    }
+
+
 }
 
 @media only screen and (max-width: 600px) {}

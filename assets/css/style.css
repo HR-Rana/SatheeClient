@@ -195,6 +195,7 @@ li {
 
 
 header {
+  width: 100%;
   position: sticky;
   top: 0;
   box-shadow: var(--NarrowShadow);
@@ -208,9 +209,12 @@ header {
   margin: 0 auto;
   display: flex;
   align-items: center;
-
-  background-color: red;
   padding: 0;
+}
+
+.navigation-bar .flex-box {
+  width: 100%;
+  justify-content: space-between;
 }
 
 
@@ -224,16 +228,14 @@ header {
 }
 
 .navigation-bar .nav-items {
-  width:100%;
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: end;
-  background-color: beige;
 }
 
 .navigation-bar .nav-items ul {
   width: 80%;
-  background-color: green;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -295,22 +297,23 @@ header {
   position: relative;
 }
 
+.Hero-section .hero-left .hero-dna img {
+  height: 100%;
+  object-fit: contain;
+  position: absolute;
+  left: -7%;
+  top: 0;
+  z-index: -11;
+}
+
+
 .Hero-section .hero-left {
   width: 50%;
   padding: 75px 0;
   display: flex;
   align-items: center;
   justify-content: center;
-
-}
-
-.Hero-section .hero-left .hero-dna img {
-  height: 100%;
-  object-fit: contain;
-  position: absolute;
-  left: 0;
-  top: 0;
-  z-index: 55;
+  z-index: 66666;
 }
 
 .Hero-section .hero-left h3 {
@@ -330,7 +333,7 @@ header {
 }
 
 .Hero-section .hero-left button {
-  width: 30%;
+  width: 40%;
   padding: 15px 30px;
   font-weight: 600;
 }
@@ -414,7 +417,6 @@ header {
 .join-waitinglist-today .left-content h3 {
   font-size: 48px;
   font-weight: 700;
-
 }
 
 .join-waitinglist-today .left-content p {
@@ -490,7 +492,7 @@ header {
 
 }
 
-.testimonials-box .owl-nav  button {
+.testimonials-box .owl-nav button {
   width: 50px;
   height: 50px;
   background-color: green;
@@ -518,7 +520,7 @@ header {
   justify-content: center;
 }
 
-.testimonials-box .owl-nav .owl-prev button{
+.testimonials-box .owl-nav .owl-prev button {
   width: 50px;
   height: 50px;
   font-size: 40px;
@@ -653,7 +655,7 @@ header {
 
 .faq-section .right-site-FAQs .faq-item {
   position: relative;
-  padding: 25px;
+  padding: 20px 25px;
   margin: 25px 0;
   border: 1px solid var(--borderColor);
   box-shadow: 0px 15px 30px -10px rgba(0, 0, 0, 0.10);
@@ -662,11 +664,17 @@ header {
   -moz-border-radius: var(--borderRadius10);
   -ms-border-radius: var(--borderRadius10);
   -o-border-radius: var(--borderRadius10);
+  transform: .6s;
+  -webkit-transform: .6s;
+  -moz-transform: .6s;
+  -ms-transform: .6s;
+  -o-transform: .6s;
 }
 
 .faq-section .right-site-FAQs .faq-item h4 {
   font-size: 24px;
   font-weight: 700;
+  cursor: pointer;
 }
 
 .faq-section .right-site-FAQs .faq-item span {
@@ -674,14 +682,34 @@ header {
   height: 40px;
   position: absolute;
   right: 10px;
-  top: 25px;
+  top: 15px;
   font-size: 20px;
 }
 
 .faq-section .right-site-FAQs .faq-item p {
   text-align: justify;
   font-size: 16px;
+  margin-top: 12px;
+  display: none;
+  transition: .6s;
+  -webkit-transition: .6s;
+  -moz-transition: .6s;
+  -ms-transition: .6s;
+  -o-transition: .6s;
 }
+
+
+
+
+.faq-box .faq-item.active p {
+  display: block;
+}
+
+
+
+
+
+
 
 
 
@@ -1461,13 +1489,15 @@ header {
   justify-content: space-between;
   padding: 0;
 }
-.recently-poost-section .pagination ul button svg{
- width: 20px;
- background-color: green;
+
+.recently-poost-section .pagination ul button svg {
+  width: 20px;
+  background-color: green;
 }
-.recently-poost-section .pagination ul button span{
- width: 20px;
- background-color: green;
+
+.recently-poost-section .pagination ul button span {
+  width: 20px;
+  background-color: green;
 }
 
 .recently-poost-section .pagination ul {
@@ -2748,29 +2778,32 @@ header {
   width: 100%;
   text-align: center;
 }
-.error-text span{
- font-size: 24px;
- display: flex;
- flex-direction: column;
- align-items: center;
- justify-content: center;
- margin-bottom: 20px;
+
+.error-text span {
+  font-size: 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
 }
 
-.error-text .button{
+.error-text .button {
   width: 100%;
   display: flex;
   text-align: center;
   margin: 0 auto;
 }
-.error-text .button a{
-  width:fit-content;
+
+.error-text .button a {
+  width: fit-content;
   display: flex;
- justify-content: center;
+  justify-content: center;
   margin: 0 auto;
 }
-.error-text .button button{
-  width:105%;
+
+.error-text .button button {
+  width: 105%;
   padding: 15px 30px;
   font-weight: 700;
 }
@@ -2880,10 +2913,12 @@ footer .subscribe-input input {
   -ms-border-radius: var(--borderRadius10);
   -o-border-radius: var(--borderRadius10);
 }
-footer .subscribe-input::placeholder{
+
+footer .subscribe-input::placeholder {
   color: white;
 }
-footer .subscribe-input input[type="submit"]{
+
+footer .subscribe-input input[type="submit"] {
   width: 100%;
   border: none;
   padding: 15px;
