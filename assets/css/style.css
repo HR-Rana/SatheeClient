@@ -477,17 +477,17 @@ header {
   gap: 10px;
   position: absolute;
   top: -80px;
-  right:25px;
+  right: 25px;
 }
 
 .testimonials-box .owl-nav .owl-next {
   gap: 4px;
   text-align: center;
- 
+
 }
 
 .testimonials-box .owl-nav .owl-next span {
-  width:52px;
+  width: 52px;
   font-size: 40px !important;
   box-shadow: var(--shadow-narrow);
   border-radius: 50%;
@@ -495,7 +495,7 @@ header {
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
   -o-border-radius: 50%;
-   transition: .6s;
+  transition: .6s;
   -webkit-transition: .6s;
   -moz-transition: .6s;
   -ms-transition: .6s;
@@ -518,7 +518,7 @@ header {
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
   -o-border-radius: 50%;
-   transition: .6s;
+  transition: .6s;
   -webkit-transition: .6s;
   -moz-transition: .6s;
   -ms-transition: .6s;
@@ -550,9 +550,10 @@ header {
   margin-bottom: 25px;
 }
 
-.testimonials-box .review-heading .profile{
-  width:48%;
+.testimonials-box .review-heading .profile {
+  width: 48%;
 }
+
 .testimonials-box .review-heading .profile h6 {
   text-transform: capitalize;
   font-size: 24px;
@@ -596,6 +597,79 @@ header {
   margin-top: 10px;
   text-align: justify;
 }
+
+
+.faq-section {
+  margin: 63px 0;
+}
+
+.faq-section .section-title h4 {
+  font-size: 48px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.faq-section .section-title p span {
+  font-weight: 700;
+  color: var(--Primary-Blue);
+}
+
+.faq-section .faq-box {
+  margin-top: 45px;
+
+}
+
+.faq-section .left-img {
+  width: 40%;
+}
+
+.faq-section .left-img img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.faq-section .faq-box .right-site-FAQs {
+  width: 60%;
+}
+
+
+.faq-section .right-site-FAQs .faq-item {
+  position: relative;
+  padding: 25px;
+  margin: 25px 0;
+  border: 1px solid var(--borderColor);
+  box-shadow: 0px 15px 30px -10px rgba(0, 0, 0, 0.10);
+  border-radius: var(--borderRadius10);
+  -webkit-border-radius: var(--borderRadius10);
+  -moz-border-radius: var(--borderRadius10);
+  -ms-border-radius: var(--borderRadius10);
+  -o-border-radius: var(--borderRadius10);
+}
+
+.faq-section .right-site-FAQs .faq-item h4{
+  font-size: 24px;
+  font-weight: 700;
+}
+.faq-section .right-site-FAQs .faq-item span{
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  right: 10px;
+  top: 25px;
+  font-size: 20px;
+}
+.faq-section .right-site-FAQs .faq-item p{
+  text-align: justify;
+  font-size: 16px;
+}
+
+
+
+
+
+
 
 
 
@@ -1091,6 +1165,72 @@ header {
   font-size: 14px;
   margin: 10px 10px;
 }
+
+
+
+
+
+/* blog section styles for Home page */
+.Blog-section.Featured-month-section{
+  background-color:transparent;
+}
+.Blog-section .container{
+  padding: 50px;
+  background-color: var(--SectionBackgroundColor);
+  border-radius: var(--borderRadius10);
+  -webkit-border-radius: var(--borderRadius10);
+  -moz-border-radius: var(--borderRadius10);
+  -ms-border-radius: var(--borderRadius10);
+  -o-border-radius: var(--borderRadius10);
+}
+.Blog-section .button{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+}
+.Blog-section .button button{
+ padding: 10px 30px;
+ font-weight: 700;
+}
+.Blog-section .section-title{
+  margin-bottom: 25px;
+}
+.Blog-section .left-site-content {
+  width: 60%;
+}
+.Blog-section .left-img {
+  width: 30%px;
+
+}
+.Blog-section .content-card .left-img img{
+  width: 100%;
+}
+.Blog-section .content-texts .card-body{
+  width: 100%;
+  font-size: 12px;
+}
+.Blog-section .content-texts .card-body .img{
+  display: flex;
+  flex-wrap: nowrap;
+}
+.Blog-section .right-site-videos {
+  width: 38%;
+}
+.Blog-section .items .video {
+  background-color: transparent;
+}
+.Blog-section .items .video img{
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+
+
+
+
 
 
 
@@ -2419,6 +2559,8 @@ header {
 .prortal-layout .science-section h4 {
   font-size: 20px;
 }
+
+
 
 
 
