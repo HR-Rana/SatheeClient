@@ -627,7 +627,7 @@
     /* services page end */
 
 
-    /* general page */
+    /*What do we do */
     .book-appointment .flex-box {
         display: block;
         width: 100%;
@@ -662,6 +662,7 @@
         width: 100% !important;
         text-align: left;
     }
+
 
     /* our science / blog page */
     .Featured-month-section .left-site-content {
@@ -813,8 +814,17 @@
         background-color: white;
     }
 
+    /* signup page done */
 
+    /* general page */
+    .General-page-section .section-title {
+        width: 70% !important;
+    }
 
+    .General-page-section .section-title h3 {
+        text-align: center;
+        font-size: 32px !important;
+    }
 
     /* contact page  */
     .contact-page .flex-box {
@@ -975,6 +985,15 @@
     /* service page end */
 
 
+
+    /* what do we do / doctor bio */
+    .book-appointment .appointment-content button {
+        width: fit-content;
+        padding: 15px 25px;
+    }
+
+
+
     /* login page */
 
     .login-page .flex-box {
@@ -1079,6 +1098,21 @@
     .signup-page .login-other-way button:nth-child(2) {
         height: 22px;
     }
+
+    /* general page */
+
+    .General-page-section .section-title h3 {
+        text-align: center;
+        font-size: 32px !important;
+        margin: 0px !important;
+    }
+
+    .General-page-section .section-title {
+        width: 90% !important;
+    }
+
+
+
 
 
 }
