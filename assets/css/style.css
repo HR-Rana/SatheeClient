@@ -2116,11 +2116,12 @@ header {
 }
 
 .signup-page .signup-form {
-  width: 40%;
+  width: 45%;
 }
 
 .signup-page form {
   width: 100%;
+  height: fit-content;
   display: flex;
   flex-direction: column;
   margin-top: 32px;
@@ -2140,7 +2141,7 @@ header {
 .signup-page span .country {
   display: inline-flex;
   width: 116px;
-  height: 72px;
+  height: 52px;
   padding: 10px;
   align-items: center;
   gap: 10px;
@@ -2163,8 +2164,9 @@ header {
 }
 
 .signup-page span img {
+  width: 25px;
   position: absolute;
-  top: 20px;
+  top: 15px;
   right: 10px;
   cursor: pointer;
 }
@@ -2180,7 +2182,7 @@ header {
 .signup-page form span input {
   display: inline-flex;
   width: 100%;
-  height: 72px;
+  height: 52px;
   padding: 10px;
   font-size: 16px;
   align-items: flex-start;
@@ -2278,14 +2280,12 @@ header {
 
 .signup-page form .button button {
   width: 100%;
-
+  font-size: 20px;
+  height: 52px;
 }
 
 .signup-page h4 {
   font-size: 48px;
-  font-family: 'Product Sans';
-  font-size: 48px;
-  font-style: normal;
   font-weight: 700;
   line-height: 54px;
   color: var(--Primary-Blue);
@@ -2363,7 +2363,6 @@ header {
 
 
 
-
 /* Singup-page */
 .Singup-page {
   margin-bottom: 60px;
@@ -2373,7 +2372,9 @@ header {
   display: flex;
   justify-content: space-between;
 }
-
+.signup-page .login-img{
+  position: relative;
+}
 .signup-page .blur-text {
   width: 80%;
   height: 277.631px;
@@ -2384,10 +2385,10 @@ header {
   padding: 15px 30px;
   margin: 0;
   border-radius: 10px;
-  background: rgba(255, 242, 242, 0.13);
+  background: rgba(0, 0, 0, 0.13);
   backdrop-filter: blur(50px);
   position: absolute;
-  bottom: 0px;
+  top: 65%;
   left: 75px;
   color: #fff;
   border-radius: var(--borderRadius10);
