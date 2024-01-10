@@ -240,14 +240,18 @@
     }
 
     .Blog-section .left-site-content {
-        width: 75%;
+        width: 100%;
         margin: 50px auto;
     }
 
     .Blog-section .right-site-videos {
-        width: 65%;
+        width: 75%;
         margin: 25px auto;
     }
+
+
+
+
 
 
     /* about page company history */
@@ -352,6 +356,7 @@
     .weekly-consultation .left-site-img span img {
         width: 100%;
         height: 100%;
+        border-bottom: 1px solid var(--borderColor);
     }
 
     .weekly-consultation .right-site-content {
@@ -367,6 +372,13 @@
         font-weight: 700;
         text-align: left;
     }
+
+    .weekly-consultation .left-site-img {
+        z-index: 999;
+    }
+
+
+
 
 
     /* choose plan section */
@@ -404,65 +416,216 @@
 
     }
 
-        /* footer section */
-        footer {
-            height: fit-content;
-        }
-
-        footer .flex-box {
-            flex-wrap: wrap;
-            justify-content: center;
-        }
-
-        footer .footer-item {
-            margin: 25px 0;
-        }
-
-        footer .footer-item:nth-child(2) {
-            width: 48%;
-        }
-
-        footer .footer-item:nth-child(3) {
-            width: 30%;
-
-        }
+    .choose-plan-sectin .plan-table-area table tbody {
+        width: 100%;
+        height: 60px;
+        padding: 0px 15px;
     }
 
-    @media only screen and (max-width: 600px) {
+    .choose-plan-sectin .plan-table-area table tr {
+        width: 100%;
+        height: 60px;
+        padding: 0px 15px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
 
-        /* servuce page*/
+    }
 
-        /* choose plan section */
-        .choose-plan-sectin .plan-box .left-price {
-            width: 95%;
-            margin: 25px auto;
-        }
+    .choose-plan-sectin .plan-table-area thead th {
+        width: 100%;
+        display: flex;
+        align-items: flex-start;
+        justify-content: start !important;
+    }
 
-        .choose-plan-sectin .plan-box .right-site-plan {
-            width: 95%;
-            margin: 25px auto;
-            margin-top: 25px;
-        }
+    .choose-plan-sectin .plan-table-area table tr img {
+        width: 25px;
+    }
 
-        .choose-plan-sectin .plan-box .right-site-plan .plan-items {
-            width: 100%;
-            justify-content: space-between;
-        }
+    .choose-plan-sectin .plan-table-area table tr td:first-child {
+        width: 100%;
+    }
 
-        .choose-plan-sectin .plan-box .heading h4 {
-            font-size: 30px;
-            font-weight: 700;
-        }
+    .choose-plan-sectin .plan-table-area table tr td {
+        width: 100%;
+    }
 
-        .choose-plan-sectin .plan-table-area table {
-            width: 100%;
-            height: 100%;
-            text-align: left;
-            margin-top: 15px;
-            margin-bottom: 45px;
-            overflow-x: auto;
-        }
-        /* .choose-plan-sectin .plan-table-area table tfoot{
+
+    .choose-plan-sectin .plan-table-area table tfoot button {
+        width: 100%;
+        height: 45px;
+        color: black;
+        font-size: 12px !important;
+        border: 1px solid rgba(50, 92, 244, 0.30);
+        box-shadow: 0px 0px white;
+    }
+
+
+    /* consultation section */
+
+    .weekly-consultation .weekly-consultation-box {
+        margin-top: 115px;
+        padding: 40px;
+    }
+
+
+
+    /* consultation section */
+    .consultation-section .items {
+        width: 100%;
+        display: flex;
+        margin: 35px 0;
+    }
+
+    .consultation-section .items .right-content span {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-right: 25px;
+    }
+
+    .consultation-section .items .right-content img {
+        width: 50px;
+        height: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .consultation-section .items .right-content h4 {
+        width: 75%;
+        height: 100%;
+        flex-direction: column-reverse;
+        font-size: 24px;
+        font-weight: 600;
+        line-height: 35px;
+        padding-right: 10px;
+    }
+
+    .consultation-section .items .right-content p {
+        font-size: 18px;
+        text-align: justify;
+    }
+
+    .consultation-section .items .right-content {
+        width: 80%;
+        padding: 25px;
+    }
+
+    .consultation-section .items .left-img {
+        width: 80%;
+        padding: 15px;
+        margin: 0 auto;
+    }
+
+    .consultation-section .items .right-content h4 {
+        width: 100%;
+        font-size: 22px;
+    }
+
+    /* services page end */
+
+
+    /* our science / blog page */
+    .Featured-month-section .left-site-content {
+        width: 100%;
+    }
+
+    .Featured-month-section .content-card {
+        width: 100%;
+    }
+
+    .Featured-month-section .right-site-videos {
+        width: 80%;
+        margin: 25px auto;
+    }
+
+    .Featured-month-section h3 {
+        font-size: 32px;
+    }
+
+
+    /* recently post section */
+    .recently-poost-section .title h4 {
+        padding-bottom: 30px;
+        margin-left: 15px;
+    }
+
+    .recently-poost-section .flex-box {
+        display: block;
+    }
+
+    .recently-poost-section .left-site-posts {
+        width: 100%;
+    }
+
+    /* Blog/our science page end */
+
+
+
+
+    /* footer section */
+    footer {
+        height: fit-content;
+    }
+
+    footer .flex-box {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    footer .footer-item {
+        margin: 25px 0;
+    }
+
+    footer .footer-item:nth-child(2) {
+        width: 48%;
+    }
+
+    footer .footer-item:nth-child(3) {
+        width: 30%;
+
+    }
+}
+
+@media only screen and (max-width: 600px) {
+
+    /* servuce page*/
+
+    /* choose plan section */
+    .choose-plan-sectin .plan-box .left-price {
+        width: 95%;
+        margin: 25px auto;
+    }
+
+    .choose-plan-sectin .plan-box .right-site-plan {
+        width: 95%;
+        margin: 25px auto;
+        margin-top: 25px;
+    }
+
+    .choose-plan-sectin .plan-box .right-site-plan .plan-items {
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    .choose-plan-sectin .plan-box .heading h4 {
+        font-size: 30px;
+        font-weight: 700;
+    }
+
+    .choose-plan-sectin .plan-table-area table {
+        width: 100%;
+        height: 100%;
+        text-align: left;
+        margin-top: 15px;
+        margin-bottom: 45px;
+        overflow-x: auto;
+    }
+
+    /* .choose-plan-sectin .plan-table-area table tfoot{
             width: 100%;
             background-color: red;
             font-size: 12px;
@@ -473,6 +636,19 @@
             height: 40px;
         } */
 
+
+    /* service page */
+    /* consultation section */
+    .consultation-section .items {
+        width: 100%;
+        display: block;
+        margin: 35px 0;
     }
 
-    /* @media (max-width:400px) {} */
+    .consultation-section .items .right-content {
+        width: 80%;
+        margin: 20px auto;
+    }
+}
+
+/* @media (max-width:400px) {} */
