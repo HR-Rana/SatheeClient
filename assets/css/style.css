@@ -2103,6 +2103,10 @@ header {
 
 }
 
+.signup-area.contact-page{
+  padding: 100px 0px;
+}
+
 
 .signup-form .title p {
   font-size: 24px;
@@ -2263,7 +2267,7 @@ header {
 
 
 .signup-page form span textarea {
-  width: 533px;
+  width: 100%;
   height: 187px;
   display: flex;
   height: 100%;
@@ -2312,7 +2316,7 @@ header {
 
 
 .signup-page iframe {
-  width: 627.167px;
+  width:100%;
   height: 870.507px;
   border-radius: var(--borderRadius10);
   -webkit-border-radius: var(--borderRadius10);
@@ -2332,6 +2336,7 @@ header {
 }
 
 .signup-page .map {
+  width: 50%;
   position: relative;
 }
 
@@ -2372,9 +2377,11 @@ header {
   display: flex;
   justify-content: space-between;
 }
-.signup-page .login-img{
+
+.signup-page .login-img {
   position: relative;
 }
+
 .signup-page .blur-text {
   width: 80%;
   height: 277.631px;
@@ -2472,6 +2479,10 @@ header {
   background-color: white;
   font-size: 16px;
   border: 1px solid rgba(50, 92, 244, 0.30);
+}
+.signup-page .login-other-way .google button img{
+  width: 25px;
+  height: 25px;
 }
 
 

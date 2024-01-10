@@ -27,7 +27,7 @@
     }
 
 
-    .signup-page .login-img img{
+    .signup-page .login-img img {
         position: relative;
     }
 
@@ -37,7 +37,7 @@
         margin: 0;
         border-radius: 10px;
         position: absolute;
-        top:65%;
+        top: 65%;
         left: 0px;
         backdrop-filter: blur(100px);
     }
@@ -718,12 +718,14 @@
         display: none;
     }
 
-    .signup-form .title h4 {
-        font-size: 36px;
+
+
+    .signup-page .title h4 {
+        font-size: 38px;
     }
 
-    .signup-form .title p {
-        font-size: 16px;
+    .signup-page .title p {
+        font-size: 18px;
     }
 
     .signup-page span img {
@@ -774,7 +776,35 @@
 
 
 
+    /* contact page  */
+    .contact-page .flex-box {
+        display: block;
+    }
 
+    .signup-page .signup-form {
+        width: 70% !important;
+    }
+
+    .signup-page .title p {
+        font-size: 28px;
+        color: #3d3d3d;
+        font-weight: 600;
+        margin-top: 5px;
+
+    }
+
+    .signup-page .map {
+        width: 100% !important;
+        height: 100% !important;
+        margin-top: 50px;
+        height: fit-content;
+    }
+    .signup-page iframe {
+        width: 100% !important;
+        height: 350px !important;
+        margin-top: 50px;
+        height: fit-content;
+    }
 
 
 
@@ -946,12 +976,16 @@
     }
 
     .signup-page .signup-area {
-        padding: 75px 0px;
+        padding: 75px 30px;
     }
 
     .signup-page .signup-form {
-        width: 100%;
-        margin: 0 auto;
+        width: 70%;
+        margin: 0px;
+        margin-left: -15px;
+    }
+    .signup-page .signup-form form{
+        width: 90%;
     }
 
     .signup-page .signup-form input {
