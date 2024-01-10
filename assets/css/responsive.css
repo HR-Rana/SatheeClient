@@ -169,6 +169,10 @@
     }
 
 
+
+
+
+
     /* login page */
     .signup-page .signup-area {
         padding: 100px;
@@ -623,6 +627,42 @@
     /* services page end */
 
 
+    /* general page */
+    .book-appointment .flex-box {
+        display: block;
+        width: 100%;
+        height: 100%;
+    }
+
+    .book-appointment .left-site-img {
+        width: 75%;
+        height: 100%;
+        justify-content: center;
+        margin: 25px auto;
+        padding-top: 50px;
+        transform: scale(1.0);
+        -webkit-transform: scale(1.0);
+        -moz-transform: scale(1.0);
+        -ms-transform: scale(1.0);
+        -o-transform: scale(1.0);
+    }
+
+    .book-appointment .left-site-img img {
+        width: 100%;
+    }
+
+    .book-appointment .appointment-content {
+        display: flex;
+        width: 80%;
+        margin: 25px auto;
+        padding: 30px;
+    }
+
+    .book-appointment p {
+        width: 100% !important;
+        text-align: left;
+    }
+
     /* our science / blog page */
     .Featured-month-section .left-site-content {
         width: 100%;
@@ -799,6 +839,7 @@
         margin-top: 50px;
         height: fit-content;
     }
+
     .signup-page iframe {
         width: 100% !important;
         height: 350px !important;
@@ -963,7 +1004,6 @@
         width: 80%;
         padding: 50px;
         height: 100%;
-        background-color: greenyellow;
         object-fit: contain;
         position: relative;
     }
@@ -984,7 +1024,8 @@
         margin: 0px;
         margin-left: -15px;
     }
-    .signup-page .signup-form form{
+
+    .signup-page .signup-form form {
         width: 90%;
     }
 
