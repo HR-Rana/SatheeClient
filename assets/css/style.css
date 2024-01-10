@@ -2093,38 +2093,40 @@ header {
 
 /* contact page and login page styless here..!*/
 
-.contact-page {
+.signup-page {
   background: #F2F5FF;
 }
 
-.contact-area {
-  padding: 145px;
+.signup-area {
+  height: 100%;
+  padding: 150px;
+
 }
 
 
-.contact-form .title p {
+.signup-form .title p {
   font-size: 24px;
   color: #3d3d3d;
   font-weight: 600;
   margin-top: 5px;
 }
 
-.contact-page .flex {
+.signup-page .flex {
   justify-content: space-between;
 }
 
-.contact-page .contact-form {
+.signup-page .signup-form {
   width: 40%;
 }
 
-.contact-page form {
+.signup-page form {
   width: 100%;
   display: flex;
   flex-direction: column;
   margin-top: 32px;
 }
 
-.contact-page form span {
+.signup-page form span {
   display: flex;
   margin-bottom: 33px;
   /* background-color: white; */
@@ -2135,7 +2137,7 @@ header {
   -o-border-radius: var(--borderRadius10);
 }
 
-.contact-page span .country {
+.signup-page span .country {
   display: inline-flex;
   width: 116px;
   height: 72px;
@@ -2146,35 +2148,36 @@ header {
   border: .5px solid var(--lightPurple);
 }
 
-.contact-page span .country small {
+.signup-page span .country small {
   width: 20px;
   height: 20x;
   display: flex;
   align-items: center;
   text-align: center;
-
+  justify-content: center;
+  background-color: green;
 }
 
-.contact-page span {
+.signup-page span {
   position: relative;
 }
 
-.contact-page span img {
+.signup-page span img {
   position: absolute;
   top: 20px;
   right: 10px;
   cursor: pointer;
 }
 
-.contact-page form span small {
+.signup-page form span small {
   font-size: 18px;
 }
 
-.contact-page form span small {
+.signup-page form span small {
   font-size: 18px;
 }
 
-.contact-page form span input {
+.signup-page form span input {
   display: inline-flex;
   width: 100%;
   height: 72px;
@@ -2186,7 +2189,7 @@ header {
   border: .5px solid var(--lightPurple);
 }
 
-.contact-page form span input[type="checkbox"] {
+.signup-page form span input[type="checkbox"] {
   cursor: pointer;
   width: 60px !important;
   height: 20px !important;
@@ -2195,7 +2198,7 @@ header {
   padding: 0;
 }
 
-.contact-page form span label {
+.signup-page form span label {
   height: 30px;
   display: flex;
   align-items: center;
@@ -2203,7 +2206,7 @@ header {
   font-weight: 600;
 }
 
-.contact-page form span label span {
+.signup-page form span label span {
   height: 30px;
   display: flex;
   align-self: center;
@@ -2213,7 +2216,7 @@ header {
   color: var(--Primary-Blue);
 }
 
-.contact-page form span input[type="checkbox"]::after {
+.signup-page form span input[type="checkbox"]::after {
   content: " ";
   width: 62.667px;
   height: 32.407px;
@@ -2229,7 +2232,7 @@ header {
   border: .5px solid var(--lightPurple);
 }
 
-.contact-page form span input[type="checkbox"]::before {
+.signup-page form span input[type="checkbox"]::before {
   content: " ";
   width: 30px;
   height: 30px;
@@ -2245,11 +2248,11 @@ header {
   z-index: 66666;
 }
 
-.contact-page form span input[type="checkbox"]:checked::after {
+.signup-page form span input[type="checkbox"]:checked::after {
   background-color: var(--Primary-Blue);
 }
 
-.contact-page form span input[type="checkbox"]:checked::before {
+.signup-page form span input[type="checkbox"]:checked::before {
   content: " ";
   top: 1px;
   left: 30px;
@@ -2257,7 +2260,7 @@ header {
 }
 
 
-.contact-page form span textarea {
+.signup-page form span textarea {
   width: 533px;
   height: 187px;
   display: flex;
@@ -2269,16 +2272,16 @@ header {
   font-size: 16px;
 }
 
-.contact-page form .button {
+.signup-page form .button {
   width: 100%;
 }
 
-.contact-page form .button button {
+.signup-page form .button button {
   width: 100%;
 
 }
 
-.contact-page h4 {
+.signup-page h4 {
   font-size: 48px;
   font-family: 'Product Sans';
   font-size: 48px;
@@ -2288,7 +2291,7 @@ header {
   color: var(--Primary-Blue);
 }
 
-.contact-page .button button {
+.signup-page .button button {
   width: 100%;
   display: inline-flex;
   width: 533px;
@@ -2308,7 +2311,7 @@ header {
 
 
 
-.contact-page iframe {
+.signup-page iframe {
   width: 627.167px;
   height: 870.507px;
   border-radius: var(--borderRadius10);
@@ -2318,7 +2321,7 @@ header {
   -o-border-radius: var(--borderRadius10);
 }
 
-.contact-page .map .blur-ball {
+.signup-page .map .blur-ball {
   width: 387px;
   height: 358px;
   border-radius: 387px;
@@ -2328,31 +2331,31 @@ header {
   z-index: 99999999999999;
 }
 
-.contact-page .map {
+.signup-page .map {
   position: relative;
 }
 
-.contact-page .map .blur-ball:nth-of-type(2) {
+.signup-page .map .blur-ball:nth-of-type(2) {
   position: absolute;
   top: -100px;
   right: -100px;
   z-index: -222;
 }
 
-.contact-page .map .blur-ball:nth-of-type(1) {
+.signup-page .map .blur-ball:nth-of-type(1) {
   position: absolute;
   bottom: -100px;
   left: -100px;
   z-index: -222;
 }
 
-.contact-page .login-img {
+.signup-page .login-img {
   width: 50%;
   height: 870.507px;
   position: relative;
 }
 
-.contact-page .login-img img {
+.signup-page .login-img img {
   width: 100%;
   object-fit: contain;
 }
@@ -2371,7 +2374,7 @@ header {
   justify-content: space-between;
 }
 
-.contact-page .blur-text {
+.signup-page .blur-text {
   width: 80%;
   height: 277.631px;
   display: flex;
@@ -2394,7 +2397,7 @@ header {
   -o-border-radius: var(--borderRadius10);
 }
 
-.contact-page .login-img .blur-text p {
+.signup-page .login-img .blur-text p {
   width: 95%;
   font-size: 20px;
   font-style: normal;
@@ -2403,43 +2406,43 @@ header {
   margin-top: 36px;
 }
 
-.contact-page .login-img .blur-text button {
+.signup-page .login-img .blur-text button {
   height: 46.302px;
   display: flex;
   flex-direction: row;
   padding: 10px 25px;
 }
 
-.contact-page .login-img .blur-text button img {
+.signup-page .login-img .blur-text button img {
   width: 20px;
   height: 20px;
 }
 
 
-.contact-page .login-option p {
+.signup-page .login-option p {
   text-align: center;
   margin-bottom: 36px;
   font-weight: 600;
 }
 
-.contact-page .login-other-way hr {
+.signup-page .login-other-way hr {
   stroke-width: 1px;
   stroke: #DBDBDB;
   position: relative;
   z-index: -54632;
 }
 
-.contact-page .login-other-way p {
+.signup-page .login-other-way p {
   margin-bottom: 33px;
   display: flex;
   text-align: center;
 }
 
-.contact-page .login-other-way {
+.signup-page .login-other-way {
   position: relative;
 }
 
-.contact-page .login-other-way p {
+.signup-page .login-other-way p {
   position: absolute;
   left: 35%;
   top: -23px;
@@ -2449,7 +2452,7 @@ header {
   z-index: 5555;
 }
 
-.contact-page .login-other-way .google {
+.signup-page .login-other-way .google {
   margin-top: 37px;
   width: 100%;
   height: 72px;
@@ -2458,7 +2461,7 @@ header {
   flex-shrink: 0;
 }
 
-.contact-page .login-other-way .google button {
+.signup-page .login-other-way .google button {
   width: 100%;
   padding: 25px;
   margin: 25px 0;
@@ -2471,19 +2474,19 @@ header {
 }
 
 
-.contact-page .login-page .login-other-way label {
+.signup-page .login-page .login-other-way label {
   display: flex;
   justify-content: space-between;
 }
 
-.contact-page .login-page span label {
+.signup-page .login-page span label {
   width: 100%;
   display: flex;
   justify-content: space-between;
   padding-left: 10px;
 }
 
-.contact-page .login-page span label a {
+.signup-page .login-page span label a {
   color: var(--Primary-Blue) !important;
   text-decoration: underline;
 }

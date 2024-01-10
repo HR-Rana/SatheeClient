@@ -22,6 +22,8 @@
         height: 600px;
     }
 
+
+
 }
 
 
@@ -146,6 +148,16 @@
         width: 68%;
         height: 600px;
     }
+
+
+    /* login page */
+    .signup-page .signup-area {
+        padding: 100px;
+    }
+
+
+
+
 
 
     /* 404 page */
@@ -665,12 +677,19 @@
 
 
 
+/*  */
 
 
+@media only screen and (max-width:768px) {
 
-@media only screen and (max-width: 600px) {
+    /* navigation bar styles */
+    .navigation-bar .nav-items {
+        display: none !important;
+        background-color: green;
+    }
 
-    /* servuce page*/
+
+    /* service page*/
 
     /* choose plan section */
     .choose-plan-sectin .plan-box .left-price {
@@ -744,11 +763,46 @@
     .recently-poost-section .search-tags ul {
         margin-bottom: 25px;
     }
-    .recently-poost-section .search-tags ul li{
-       font-size: 14px;
-       padding: 10px 20px;
+
+    .recently-poost-section .search-tags ul li {
+        font-size: 14px;
+        padding: 10px 20px;
     }
+
     /* service page end */
+
+
+    /* login page */
+
+    .login-page .flex-box {
+        padding: 0;
+        width: 100%;
+        display: block;
+    }
+
+    .signup-area {
+        padding: 20px;
+    }
+
+    .signup-page .signup-form {
+        width: 100% !important;
+    }
+
+    .signup-page .signup-form {
+        width: 100%;
+    }
+
+    .signup-page form span textarea {
+        width: 533px;
+        height: 187px;
+        display: flex;
+        height: 100%;
+        padding: 10px;
+        align-items: center;
+        border: .5px solid var(--lightPurple);
+        outline: none;
+        font-size: 16px;
+    }
 }
 
 
@@ -758,4 +812,4 @@
 
 
 
-        /* @media (max-width:400px) {} */
+/* @media (max-width:400px) {} */
