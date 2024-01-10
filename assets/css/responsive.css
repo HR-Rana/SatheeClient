@@ -16,246 +16,290 @@
         height: 299px;
     }
 
+}
 
-    @media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 1200px) {
 
-        /* nav bar styles */
-        .navigation-bar {
-            width: 80%;
-            height: 120px;
-        }
-
-        .section-title {
-            width: 65%;
-        }
-
-        /* hero section */
-        .Hero-section .hero-left {
-            width: 50%;
-            padding: 45px 0;
-        }
-
-        .Hero-section .hero-left h3 {
-            font-size: 42px;
-        }
-
-        .Hero-section .hero-left h3 span {
-            font-size: 48px;
-        }
-
-        .Hero-section .hero-right {
-            width: 50%;
-            position: absolute;
-            right: 0;
-            bottom: 0%;
-        }
-
-        .Hero-section .hero-left button {
-            width: 50%;
-        }
-
-        .why-choose-us .chooseUs-content-box {
-            flex-wrap: wrap;
-        }
-
-        .why-choose-us .content {
-            width: 32%;
-            margin: 15px 0;
-            text-align: center;
-        }
-
-        /* join our waiting list section */
-        .join-waitinglist-today {
-            margin-top: 155px;
-        }
-
-
-        .join-waitinglist-today .left-content {
-            height: fit-content;
-            margin: auto auto;
-            margin-top: 25px;
-            padding: 45px 0;
-            padding-bottom: 50px !important;
-
-        }
-
-        .join-waitinglist-today .left-content h3 {
-            font-size: 42px;
-            line-height: 45px;
-        }
-
-        .join-waitinglist-today .container {
-            height: fit-content;
-        }
-
-        .join-waitinglist-today .left-content {
-            height: 100%;
-            padding: 25px 0;
-        }
-
-        .join-waitinglist-today .left-content p {
-            margin: 10px 0;
-        }
-
-        .join-waitinglist-today .left-content .button {
-            padding: 0;
-            margin-top: 0;
-        }
-
-        .join-waitinglist-today .right-content img {
-            width: 85%;
-            position: absolute;
-            right: 25px;
-            bottom: 0;
-        }
-
-
-        /* about page company history */
-        .Compay-history-section .history-banner {
-            width: 100%;
-            height: 299px;
-        }
-
-
-        /* 404 page */
-        .error-text .button button {
-            width: 35%;
-            padding: 15px 30px;
-            font-weight: 700;
-        }
-
-        /* footer section */
-        footer .flex-box {
-            flex-wrap: wrap;
-            justify-content: center;
-        }
-
-        * footer .footer-item {
-            width: 48%;
-        }
+    /* nav bar styles */
+    .navigation-bar {
+        width: 80%;
+        height: 120px;
     }
 
-    @media only screen and (max-width:992px) {
-        .section-title {
-            width: 75%;
-        }
+    .section-title {
+        width: 65%;
+    }
 
-        .why-choose-us .chooseUs-content-box {
-            flex-wrap: wrap;
-        }
+    /* hero section */
+    .Hero-section .hero-left {
+        width: 50%;
+        padding: 45px 0;
+    }
 
-        .why-choose-us .chooseUs-content-box .content {
-            width: 30%;
-            height: 100%;
-            box-sizing: border-box;
-        }
+    .Hero-section .hero-left h3 {
+        font-size: 42px;
+    }
 
-        .why-choose-us .content img {
-            width: 100px;
-            height: 100px;
-        }
+    .Hero-section .hero-left h3 span {
+        font-size: 48px;
+    }
 
-        .why-choose-us .content p {
-            margin-top: 0px;
-        }
+    .Hero-section .hero-right {
+        width: 50%;
+        position: absolute;
+        right: 0;
+        bottom: 0%;
+    }
 
+    .Hero-section .hero-left button {
+        width: 50%;
+    }
 
-        /* join us waiting list */
-        .join-waitinglist-today {
-            margin-top: 100px;
-        }
+    .why-choose-us .chooseUs-content-box {
+        flex-wrap: wrap;
+    }
 
-        .join-waitinglist-today .flex-box {
-            display: block;
-        }
+    .why-choose-us .content {
+        width: 32%;
+        margin: 15px 0;
+        text-align: center;
+    }
 
-        .join-waitinglist-today .left-content {
-            width: 85%;
-            padding-top: 25px !important;
-            text-align: center;
-        }
-
-        .join-waitinglist-today .left-content button {
-            width: 40%;
-            margin: 0 auto;
-        }
-
-        .join-waitinglist-today .right-content {
-            width: 75%;
-            display: flex;
-            justify-content: center;
-            margin: 0 auto;
-        }
-
-        .join-waitinglist-today .right-content img {
-            position: static;
-            display: flex;
-            justify-content: center;
-            margin: 0 auto;
-        }
+    /* join our waiting list section */
+    .join-waitinglist-today {
+        margin-top: 155px;
+    }
 
 
-        /*TESTIMONIALS SECTION */
-        .what-people-think-aboutus .testimonials-box {
-            margin-top: 50px;
-            display: block;
-        }
+    .join-waitinglist-today .left-content {
+        height: fit-content;
+        margin: auto auto;
+        margin-top: 25px;
+        padding: 45px 0;
+        padding-bottom: 50px !important;
 
-        .faq-section .faq-box {
-            display: block;
-        }
+    }
 
-        .faq-section .left-img {
-            width: 60%;
-            margin: 30px auto;
-        }
+    .join-waitinglist-today .left-content h3 {
+        font-size: 42px;
+        line-height: 45px;
+    }
 
-        .faq-section .faq-box .right-site-FAQs {
-            width: 70%;
-            margin: 0 auto;
-        }
+    .join-waitinglist-today .container {
+        height: fit-content;
+    }
 
-        /* homepage blog section and blog page first section */
-        .Featured-month-section .flex-box {
-            display: block;
-        }
+    .join-waitinglist-today .left-content {
+        height: 100%;
+        padding: 25px 0;
+    }
 
-        .Blog-section .left-site-content {
-            width: 75%;
-            margin: 50px auto;
-        }
+    .join-waitinglist-today .left-content p {
+        margin: 10px 0;
+    }
 
-        .Blog-section .right-site-videos {
-            width: 65%;
-            margin: 25px auto;
-        }
+    .join-waitinglist-today .left-content .button {
+        padding: 0;
+        margin-top: 0;
+    }
 
-
-        /* about page company history */
-        .Compay-history-section .history-content-box {
-            width: 100%;
-        }
-
-        .Compay-history-section .history-banner {
-            width: 100%;
-            height: 299px;
-            display: none;
-        }
+    .join-waitinglist-today .right-content img {
+        width: 85%;
+        position: absolute;
+        right: 25px;
+        bottom: 0;
+    }
 
 
-        /* our values section */
-        .our-values-section .values-content-box {
-            margin-top: 0px;
-            flex-wrap: wrap;
-        }
+    /* about page company history */
+    .Compay-history-section .history-banner {
+        width: 100%;
+        height: 299px;
+    }
 
-        .our-values-section {
-            margin-bottom: 55px;
-        }
 
-        .our-values-section .values-item {
-            width: 30%;
-        }
+    /* 404 page */
+    .error-text .button button {
+        width: 35%;
+        padding: 15px 30px;
+        font-weight: 700;
+    }
+
+    /* footer section */
+    footer .flex-box {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    * footer .footer-item {
+        width: 48%;
+    }
+}
+
+@media only screen and (max-width:992px) {
+    .section-title {
+        width: 75%;
+    }
+
+    .why-choose-us .chooseUs-content-box {
+        flex-wrap: wrap;
+    }
+
+    .why-choose-us .chooseUs-content-box .content {
+        width: 30%;
+        height: 100%;
+        box-sizing: border-box;
+    }
+
+    .why-choose-us .content img {
+        width: 100px;
+        height: 100px;
+    }
+
+    .why-choose-us .content p {
+        margin-top: 0px;
+    }
+
+
+    /* join us waiting list */
+    .join-waitinglist-today {
+        margin-top: 100px;
+    }
+
+    .join-waitinglist-today .flex-box {
+        display: block;
+    }
+
+    .join-waitinglist-today .left-content {
+        width: 85%;
+        padding-top: 25px !important;
+        text-align: center;
+    }
+
+    .join-waitinglist-today .left-content button {
+        width: 40%;
+        margin: 0 auto;
+    }
+
+    .join-waitinglist-today .right-content {
+        width: 75%;
+        display: flex;
+        justify-content: center;
+        margin: 0 auto;
+    }
+
+    .join-waitinglist-today .right-content img {
+        position: static;
+        display: flex;
+        justify-content: center;
+        margin: 0 auto;
+    }
+
+
+    /*TESTIMONIALS SECTION */
+    .what-people-think-aboutus .testimonials-box {
+        margin-top: 50px;
+        display: block;
+    }
+
+    .faq-section .faq-box {
+        display: block;
+    }
+
+    .faq-section .left-img {
+        width: 60%;
+        margin: 30px auto;
+    }
+
+    .faq-section .faq-box .right-site-FAQs {
+        width: 70%;
+        margin: 0 auto;
+    }
+
+    /* homepage blog section and blog page first section */
+    .Featured-month-section .flex-box {
+        display: block;
+    }
+
+    .Blog-section .left-site-content {
+        width: 75%;
+        margin: 50px auto;
+    }
+
+    .Blog-section .right-site-videos {
+        width: 65%;
+        margin: 25px auto;
+    }
+
+
+    /* about page company history */
+    .Compay-history-section .history-content-box {
+        width: 100%;
+    }
+
+    .Compay-history-section .history-banner {
+        width: 100%;
+        height: 299px;
+    }
+
+    .Compay-history-section .history-banner {
+        width: 100%;
+        height: 299px;
+    }
+
+    .Compay-history-section .history-content-box .text-box p {
+        width: 90%;
+        margin: 0 auto;
+        padding: 25px 0;
+        text-align: justify;
+    }
+
+
+
+
+    /* our values section */
+    .our-values-section .values-content-box {
+        margin-top: 0px;
+        flex-wrap: wrap;
+    }
+
+    .our-values-section {
+        margin-bottom: 55px;
+    }
+
+    .our-values-section .values-item {
+        width: 32%;
+        margin: 15px 0;
+    }
+
+
+    /* qulified doctors section */
+    .qualified-doctors-box {
+        flex-wrap: wrap;
+    }
+
+    .qualified-doctors-box .items-card {
+        width: 48%;
+    }
+
+    /* meet our leader section */
+    .meet-leader-section .leader-card-box {
+        flex-wrap: wrap;
+    }
+
+    .meet-leader-section .section-title {
+        margin: 30px auto;
+    }
+
+    .meet-leader-section .leader-card  {
+        width: 30%;
+    }
+
+
+
+
+
+
 
 
 
@@ -287,9 +331,4 @@
 
     @media only screen and (max-width: 600px) {}
 
-
-    @media (max-width:400px) {
-  
-    
-    }
-    }
+    /* @media (max-width:400px) {} */
