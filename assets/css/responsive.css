@@ -62,7 +62,10 @@
     /* nav bar styles */
     .navigation-bar {
         width: 80%;
-        height: 120px;
+    }
+
+    .navigation-bar .nav-items ul li a {
+        font-size: 17px;
     }
 
     .section-title {
@@ -254,6 +257,73 @@
 
 
 @media only screen and (max-width:992px) {
+
+    /* navigation section */
+    .navigation-bar {
+        width: 90%;
+        height: 80px;
+    }
+
+    .navigation-bar .logo {
+        width: 20%;
+        display: flex;
+        align-items: center;
+    }
+
+    .navigation-bar ul {
+        width: 85% !important;
+        align-items: center;
+    }
+
+    .navigation-bar ul li a {
+        font-size: 15px !important;
+    }
+
+    /* banner text */
+    .Hero-section .flex-box {
+        display: block !important;
+    }
+
+    .Hero-section .hero-left {
+        width: 70%;
+        padding: 35px 0;
+        margin: 0 auto;
+        z-index: 66666;
+    }
+
+    .Hero-section .hero-left h3 {
+        font-size: 36px;
+    }
+
+    .Hero-section .hero-left h3 span {
+        font-size: 44px;
+    }
+
+    .Hero-section .hero-right {
+        width: 60%;
+        position: relative;
+        margin: 0 auto;
+        margin-top: 35px;
+    }
+
+    .Hero-section .hero-right .bg-image img {
+        width: 100%;
+        position: absolute;
+        bottom: 0;
+    }
+
+    .Hero-section .hero-right .bg-image img {
+        width: 100%;
+        position: absolute;
+        bottom: 0;
+    }
+
+
+
+
+
+
+
     .section-title {
         width: 75%;
     }
@@ -896,8 +966,78 @@
 @media only screen and (max-width:768px) {
 
     /* navigation bar styles */
+    .navigation-bar {
+        position: relative;
+    }
+
+    /* MOBILE NAV ICONS */
+    .bars-icon {
+        display: block;
+    }
+
+    .bars-icon{
+        font-size: 22px;
+        position: absolute;
+        top: 30px;
+        right: 0;
+        cursor: pointer;
+    }
+
+    .bars-icon .cross {
+        display: none;
+    }
+    /* MOBILE NAVBAR ICON END */
+
+
+    .navigation-bar .logo {
+        width: 25%;
+    }
+
     .navigation-bar .nav-items {
-        display: none !important;
+        display: none;
+    }
+
+    .section-title {
+        width: 80%;
+    }
+
+    .section-title h3 {
+        font-size: 36px;
+        margin: 10px 0;
+    }
+
+    .section-title h4 {
+        font-size: 30px !important;
+        margin: 10px 0;
+    }
+
+    /* home page */
+    .why-choose-us .chooseUs-content-box .content {
+        width: 45%;
+    }
+
+    /* waiting list today section */
+    .join-waitinglist-today .left-content h3 {
+        font-size: 34px;
+        line-height: 45px;
+        padding-top: 25px;
+    }
+
+    /* testimonials  */
+    .what-people-think-aboutus .item {
+        margin-top: 25px;
+    }
+
+    .what-people-think-aboutus .owl-nav {
+        width: 100px;
+        display: flex;
+        gap: 10px;
+        position: absolute;
+        top: -35px !important;
+        right: 25px;
+    }
+
+    .owl-nav .owl-next {
         background-color: green;
     }
 
