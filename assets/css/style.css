@@ -1214,7 +1214,7 @@ header {
   width: 129px;
   height: 115px;
   margin-right: 20px;
-  background-color: black;
+  background-color: #3d3d3d;
   border-radius: var(--borderRadius10);
   -webkit-border-radius: var(--borderRadius10);
   -moz-border-radius: var(--borderRadius10);
@@ -1444,7 +1444,7 @@ header {
 
 
 .recently-poost-section .pagination {
-  width: 100%;
+  width: 80%;
   margin: 75px 0;
   display: flex;
   justify-content: center;
@@ -1460,12 +1460,10 @@ header {
 
 .recently-poost-section .pagination ul button svg {
   width: 20px;
-  background-color: green;
 }
 
 .recently-poost-section .pagination ul button span {
   width: 20px;
-  background-color: green;
 }
 
 .recently-poost-section .pagination ul {
@@ -1521,7 +1519,7 @@ header {
 .recently-poost-section .right-site-content .ads-zone {
   width: 361px;
   height: 300px;
-  background-color: black;
+  background-color: #3d3d3d;
   border-radius: var(--borderRadius10);
   -webkit-border-radius: var(--borderRadius10);
   -moz-border-radius: var(--borderRadius10);
@@ -1908,7 +1906,7 @@ header {
   width: 270.331px;
   height: 66.622px;
   background-color: transparent;
-  color: black;
+  color: #3d3d3d;
   border: 1px solid rgba(50, 92, 244, 0.30);
   font-size: 20px;
   font-weight: 700;
@@ -2466,7 +2464,7 @@ header {
   margin: 25px 0;
   display: flex;
   flex-direction: row;
-  color: black;
+  color: #3d3d3d;
   background-color: white;
   font-size: 16px;
   border: 1px solid rgba(50, 92, 244, 0.30);
