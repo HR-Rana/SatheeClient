@@ -328,6 +328,10 @@
         width: 75%;
     }
 
+    .faq-section .section-title h4 {
+        font-size: 36px;
+    }
+
     .why-choose-us .chooseUs-content-box {
         flex-wrap: wrap;
     }
@@ -399,8 +403,18 @@
     }
 
     .faq-section .faq-box .right-site-FAQs {
-        width: 70%;
+        width: 80%;
         margin: 0 auto;
+    }
+
+
+    .faq-section .right-site-FAQs .faq-item h4 {
+        font-size: 20px;
+    }
+
+    .faq-section .right-site-FAQs .faq-item span {
+        font-size: 15px;
+        top: 25px;
     }
 
     /* homepage blog section and blog page first section */
@@ -943,13 +957,27 @@
         margin: 25px 0;
     }
 
+    footer .flogo img {
+        width: 70%;
+    }
+
     footer .footer-item:nth-child(2) {
         width: 48%;
     }
 
     footer .footer-item:nth-child(3) {
-        width: 30%;
+        width: 40%;
+    }
 
+    footer .footer-item:nth-child(3) ul {
+        width: 80%;
+        display: inline-flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    footer .flogo .social-icons span svg {
+        font-size: 18px;
     }
 }
 
@@ -975,7 +1003,7 @@
         display: block;
     }
 
-    .bars-icon{
+    .bars-icon {
         font-size: 22px;
         position: absolute;
         top: 30px;
@@ -986,6 +1014,7 @@
     .bars-icon .cross {
         display: none;
     }
+
     /* MOBILE NAVBAR ICON END */
 
 
@@ -1040,6 +1069,25 @@
     .owl-nav .owl-next {
         background-color: green;
     }
+
+    /* blog section */
+    .Featured-month-section .content-card {
+        display: block;
+        height: 100%;
+        padding: 20px;
+    }
+
+    .Featured-month-section .content-card .left-img {
+        width: 100%;
+    }
+
+    .Featured-month-section .content-texts {
+        width: 90%;
+        margin: 25px auto;
+    }
+
+    /* home page end */
+
 
 
     /* service page*/

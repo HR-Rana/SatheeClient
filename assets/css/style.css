@@ -171,7 +171,7 @@ li {
 }
 
 .section-title {
-  width: 50%;
+  width: 60%;
   margin: 0 auto;
   text-align: center;
   text-transform: capitalize;
@@ -389,7 +389,7 @@ header {
 .Hero-section .hero-right .slide-icon img {
   width: 100px;
   height: 100px;
-  z-index: 99999;
+  z-index: 4444;
 }
 
 
@@ -2915,6 +2915,7 @@ footer .subscribe-input {
   align-items: center;
 }
 
+
 footer .subscribe-input span {
   width: 100%;
   margin: 15px auto;
@@ -2928,7 +2929,6 @@ footer .subscribe-input input {
   width: 100%;
   border: none;
   padding: 15px;
-  color: white !important;
   background-color: #012cac;
   border-radius: var(--borderRadius10);
   -webkit-border-radius: var(--borderRadius10);
@@ -2937,8 +2937,9 @@ footer .subscribe-input input {
   -o-border-radius: var(--borderRadius10);
 }
 
-footer .subscribe-input::placeholder {
+footer .subscribe-input input::placeholder{
   color: white;
+  outline: none;
 }
 
 footer .subscribe-input input[type="submit"] {
