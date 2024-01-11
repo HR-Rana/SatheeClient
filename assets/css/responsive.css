@@ -112,6 +112,12 @@
     .prortal-layout .left-sitebar {
         width: 20% !important;
     }
+
+    .prortal-layout .right-siteContent {
+        padding-bottom: 50px;
+    }
+
+
 }
 
 
@@ -240,8 +246,10 @@
         height: 600px;
     }
 
-
-
+    /* portal page */
+    .prortal-layout .right-siteContent {
+        padding-bottom: 40px;
+    }
 
 
 
@@ -420,7 +428,6 @@
         margin-top: 0px;
     }
 
-
     /* join us waiting list */
     .join-waitinglist-today {
         margin-top: 100px;
@@ -476,7 +483,6 @@
         margin: 0 auto;
     }
 
-
     .faq-section .right-site-FAQs .faq-item h4 {
         font-size: 20px;
     }
@@ -502,10 +508,6 @@
     }
 
 
-
-
-
-
     /* about page company history */
     .Compay-history-section .history-content-box {
         width: 100%;
@@ -528,8 +530,6 @@
         padding: 25px 0;
         text-align: justify;
     }
-
-
 
 
     /* our values section */
@@ -898,12 +898,38 @@
 
 
     /* portal page */
+    .prortal-layout .right-siteContent {
+        width: 80%;
+        padding: 50px;
+        padding-bottom: 30px;
+    }
+
+    .portal-bars {
+        display: block;
+    }
+
+    .page-title h5 {
+        font-size: 22px;
+    }
+
+    .page-title h5 span {
+        font-size: 28px !important;
+    }
+
     .science-section .scientist-box .item h6 {
         font-size: 16px;
         margin-top: 10px;
     }
 
-    /* portal page */
+    .prortal-layout .left-sitebar {
+        display: none;
+    }
+
+    .prortal-layout .right-siteContent {
+        width: 100%;
+    }
+
+    /* portal page end */
 
 
     /* login page */

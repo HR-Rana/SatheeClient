@@ -2574,7 +2574,9 @@ header {
 .prortal-layout {
   display: flex;
 }
-
+.portal-bars{
+  display: none;
+}
 .prortal-layout .left-sitebar {
   width: 20%;
   height: 100vh;
@@ -2695,6 +2697,7 @@ header {
 .prortal-layout .overview-items-box .item {
   width: 32%;
   display: flex;
+  align-items: center;
   padding: 15px;
   border-radius: 12px;
   -webkit-border-radius: 12px;
@@ -2756,6 +2759,7 @@ header {
 
 
 
+
 /* portal charts */
 .chart-section {
   margin: 50px 0;
@@ -2779,6 +2783,10 @@ header {
   -moz-border-radius: var(--borderRadius10);
   -ms-border-radius: var(--borderRadius10);
   -o-border-radius: var(--borderRadius10);
+}
+.chart-section .chart-card .chart{
+  width: 100%;
+  height: 100%;
 }
 
 .chart-section .chart-card span {
