@@ -251,6 +251,10 @@
         padding-bottom: 40px;
     }
 
+    .prortal-layout .right-siteContent {
+        padding: 20px;
+    }
+
 
 
     /* login page */
@@ -394,11 +398,6 @@
         position: absolute;
         bottom: 0;
     }
-
-
-
-
-
 
 
     .section-title {
@@ -583,9 +582,6 @@
 
 
 
-
-
-
     /* services page*/
     .weekly-consultation .weekly-consultation-box {
         display: block;
@@ -628,8 +624,6 @@
     .weekly-consultation .left-site-img {
         z-index: 999;
     }
-
-
 
 
 
@@ -702,7 +696,6 @@
     .choose-plan-sectin .plan-table-area table tr td {
         width: 100%;
     }
-
 
     .choose-plan-sectin .plan-table-area table tfoot button {
         width: 100%;
@@ -895,9 +888,21 @@
     /* Blog/our science page end */
 
 
-
-
     /* portal page */
+    /* .prortal-layout .left-sitebar{
+        position: static;
+        width: 30% !important;
+        display: none !important;
+    } */
+    .prortal-layout .left-sitebar {
+        width: 50% !important;
+        display: none;
+    }
+
+    .prortal-layout .left-sitebar .sidebar-navitems {
+        margin-top: 62px;
+    }
+
     .prortal-layout .right-siteContent {
         width: 80%;
         padding: 50px;
@@ -1046,6 +1051,16 @@
     }
 
     /* portal page */
+    .prortal-layout .right-siteContent .page-title {
+        background-color: whitesmoke;
+        padding: 10px 15px;
+        border-radius: var(--borderRadius10);
+        -webkit-border-radius: var(--borderRadius10);
+        -moz-border-radius: var(--borderRadius10);
+        -ms-border-radius: var(--borderRadius10);
+        -o-border-radius: var(--borderRadius10);
+    }
+
     .chart-section .flex-box {
         width: 100%;
         display: flex;
@@ -1413,8 +1428,16 @@
 
 
     /* portal page  */
+    .prortal-layout .left-sitebar .sidebar-navitems ul li a {
+        font-size: 14px;
+    }
+
     .prortal-layout .overview-items-box {
         display: block;
+    }
+
+    .prortal-layout .right-siteContent {
+        padding: 20px;
     }
 
     .prortal-layout .overview-items-box .item {
@@ -1464,4 +1487,79 @@
 
 
 
-/* @media (max-width:400px) {} */
+@media (max-width:600px) {
+
+    /* portal page */
+    .prortal-layout .left-sitebar {
+        width: 60% !important;
+        padding-top: 40px;
+    }
+
+    .prortal-layout .left-sitebar .profile img {
+        width: 20px;
+        height: 20px;
+    }
+
+    .prortal-layout .left-sitebar .profile h6 {
+        font-size: 12px !important;
+    }
+
+    .prortal-layout .left-sitebar .sidebar-navitems ul li {
+        margin: 15px 0;
+    }
+
+    .prortal-layout .left-sitebar .sidebar-navitems ul li a {
+        font-size: 13px;
+    }
+
+    .prortal-layout .left-sitebar .sidebar-navitems ul li svg {
+        width: 15px;
+    }
+
+    /* portal right site contetn */
+    .prortal-layout .right-siteContent .page-title {
+        flex-wrap: wrap;
+    }
+
+    .prortal-layout .right-siteContent .page-title h5 {
+        font-size: 13px;
+    }
+
+    .prortal-layout .right-siteContent .page-title h5 span {
+        font-size: 15px !important;
+    }
+
+    .prortal-layout .right-siteContent .page-title p {
+        font-size: 14px !important;
+    }
+
+    .prortal-layout .weather-box span img {
+        width: 22px;
+    }
+
+    .prortal-layout .weather-box p,
+    article {
+        font-size: 12px;
+    }
+
+    /* overview */
+    .prortal-layout .latest-overview h4 {
+        font-size: 22px;
+        margin-top: 20px;
+    }
+
+    /* charts */
+    .chart-section .chart-card {
+        width: 90%;
+        margin: 15px auto;
+    }
+
+    .prortal-layout .overview-items-box .item {
+        width: 100%;
+    }
+
+    /* science section */
+    .prortal-layout .science-section{
+        padding: 20px;
+    }
+}

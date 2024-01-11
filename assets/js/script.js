@@ -19,7 +19,11 @@
    // })
 
 
+// portal page sidebar Responsive
 
+$(".portal-bars").click(function(){
+   $(".prortal-layout .left-sitebar").toggle(200);
+})
 
 
 // FAQ SECITON ACCORDIN TOGGLER
