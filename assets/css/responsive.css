@@ -1218,9 +1218,7 @@
 
 
 @media only screen and (max-width:768px) {
-    section {
-        margin: 150px 0;
-    }
+   
 
     /* navigation bar styles */
     .navigation-bar {
