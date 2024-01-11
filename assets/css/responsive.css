@@ -322,7 +322,7 @@
 
     /* 404 page */
     .error-text .button button {
-        width: 35%;
+        width: 100%;
         padding: 15px 30px;
         font-weight: 700;
     }
@@ -559,7 +559,7 @@
     }
 
     .our-values-section {
-        margin-bottom: 55px;
+        margin: 150px 0;
     }
 
     .our-values-section .values-item {
@@ -890,6 +890,9 @@
         margin-left: 15px;
     }
 
+    .recently-poost-section{
+        margin: 85px 0;
+    }
     .recently-poost-section .flex-box {
         display: block;
     }
@@ -924,7 +927,7 @@
 
     .recently-poost-section .right-site-content {
         width: 100%;
-        margin-top: 75px;
+        margin-top: 135px;
     }
 
     .recently-poost-section .right-site-content .ads-zone {
@@ -1155,6 +1158,17 @@
         width: 47%;
     }
 
+
+
+
+
+
+    /* error page */
+
+    .error-text .button button {
+        width: 100%;
+    }
+
     /* footer section */
     footer {
         height: fit-content;
@@ -1204,6 +1218,9 @@
 
 
 @media only screen and (max-width:768px) {
+    section {
+        margin: 150px 0;
+    }
 
     /* navigation bar styles */
     .navigation-bar {
@@ -1665,6 +1682,11 @@
         margin-top: 10px;
     }
 
+    /* error page img */
+    .error-section .error-img {
+        width: 55%;
+    }
+
 }
 
 
@@ -1847,12 +1869,15 @@
         font-size: 24px;
     }
 
+    .Featured-month-section .video-contents{
+        padding-top: 70px;
+    }
     .Featured-month-section .video-contents .items {
         width: 90%;
         margin: 25px auto;
         display: block;
         text-align: center;
-        object-fit:unset;
+        object-fit: unset;
     }
 
     .Featured-month-section .items .video {
@@ -2004,6 +2029,23 @@
     /* science section */
     .prortal-layout .science-section {
         padding: 20px;
+    }
+
+    /* error page */
+    .error-section .error-img {
+        width: 60%;
+    }
+
+    .error-text p,
+    a {
+        font-size: 17px;
+    }
+
+    .error-text .button button {
+        width: 100%;
+        padding: 15px 20px;
+        font-weight: 500;
+        font-size: 14px;
     }
 
 }
