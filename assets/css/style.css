@@ -244,14 +244,13 @@ header {
 }
 
 .navigation-bar .nav-items {
-  width: 100%;
+  width: 70%;
   display: flex;
   align-items: center;
-  background-color: red;
 }
 
 .navigation-bar .nav-items ul {
-  width: 80%;
+  width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -2449,8 +2448,8 @@ header {
   background: rgba(0, 0, 0, 0.13);
   backdrop-filter: blur(50px);
   position: absolute;
-  top: 65%;
   left: 75px;
+  bottom: 0;
   color: #fff;
   border-radius: var(--borderRadius10);
   -webkit-border-radius: var(--borderRadius10);

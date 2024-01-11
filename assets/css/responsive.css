@@ -366,8 +366,14 @@
         align-items: center;
     }
 
+    .navigation-bar .nav-items {
+        width: 72%;
+        display: flex;
+        align-items: center;
+    }
+
     .navigation-bar ul {
-        width: 85% !important;
+        width: 100%;
         align-items: center;
     }
 
@@ -1692,10 +1698,11 @@
     .meet-leader-section .leader-card {
         width: 100%;
     }
-    .meet-leader-section .leader-card img{
+
+    .meet-leader-section .leader-card img {
         width: 640px;
     }
-  
+
 
     /* .Qualified-doctors-section .section-title h4{
         font-size:28px !important;
