@@ -738,7 +738,7 @@ header {
 }
 
 .Compay-history-section .history-content-box {
-  width: 1279px;
+  width: 100%;
   margin: 0 auto;
   margin-top: 45px;
 }
@@ -815,7 +815,6 @@ header {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  padding: 50px;
 }
 
 .our-values-section {
@@ -859,6 +858,7 @@ header {
 
 .our-values-section .values-item p {
   font-size: 16px;
+
 }
 
 
@@ -886,9 +886,9 @@ header {
 }
 
 .qualified-doctors-box .items-card {
-  width: 30%;
+  width: 32%;
   background-color: white;
-  padding: 30px;
+  padding: 20px;
   margin: 25px 0;
   box-shadow: 0px 15px 30px -20px rgba(50, 92, 244, 0.10);
   border-radius: var(--borderRadius10);
@@ -899,23 +899,28 @@ header {
 }
 
 .qualified-doctors-box .items-card .card-header {
-  display: flex;
+  display: flex !important;
+  justify-content: space-between;
 }
 
 .qualified-doctors-box .items-card .card-header img {
-  width: 80px;
-  height: 80px;
-  margin-right: 30px;
+  width: 60px;
+  height:60px;
+  margin-right: 0px;
 }
 
 .qualified-doctors-box .items-card .card-header span {
+  width: 65%;
   display: flex;
-  width: 210px;
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
   gap: 4px;
   text-align: left;
+}
+
+.qualified-doctors-box .items-card .card-header h6 {
+  font-size: 20px;
 }
 
 .qualified-doctors-box .items-card .card-body {
@@ -1505,11 +1510,11 @@ header {
   display: flex;
   justify-content: center;
   margin: 0 auto;
- 
+
 }
 
 .recently-poost-section .pagination ul li {
- padding: 15px;
+  padding: 15px;
   height: 40px !important;
   font-size: 15px !important;
   display: flex;

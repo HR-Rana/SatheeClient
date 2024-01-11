@@ -594,6 +594,36 @@
         width: 30%;
     }
 
+    /* homepage end */
+
+
+    /* about page  */
+    .Compay-history-section {
+        margin-top: 50px;
+    }
+
+    .section-title h3 {
+        font-size: 36px;
+    }
+
+    .Compay-history-section .history-banner p {
+        font-size: 22px;
+    }
+
+    .Compay-history-section .history-banner span {
+        font-size: 28px;
+    }
+
+    .meet-leader-section .leader-card .card-body h4 {
+        font-size: 22px;
+        font-weight: 600;
+    }
+
+    .meet-leader-section .leader-card .card-body p {
+        font-weight: 500;
+    }
+
+
 
 
 
@@ -1261,6 +1291,33 @@
     /* home page end */
 
 
+    /* about page */
+    .Compay-history-section .history-banner {
+        height: 250px;
+    }
+
+    .Compay-history-section .history-banner p {
+        font-size: 22px !important;
+    }
+
+    .Compay-history-section .history-content-box .text-box p {
+        width: 100%;
+        font-size: 18px;
+    }
+
+    .mission-section .mission-text {
+        font-size: 20px;
+    }
+
+    .our-values-section .values-item {
+        width: 48%;
+        margin: 15px 0;
+    }
+
+    .meet-leader-section .leader-card {
+        width: 48%;
+    }
+
 
     /* service page*/
     .why-choose-us .chooseUs-content-box {
@@ -1627,6 +1684,29 @@
         width: 100%;
     }
 
+    /* about page */
+    .our-values-section .values-item {
+        width: 100%;
+    }
+
+    .meet-leader-section .leader-card {
+        width: 100%;
+    }
+    .meet-leader-section .leader-card img{
+        width: 640px;
+    }
+  
+
+    /* .Qualified-doctors-section .section-title h4{
+        font-size:28px !important;
+    } */
+    .qualified-doctors-box .items-card {
+        width: 100%;
+    }
+
+
+
+
 
 
     /* blog page */
@@ -1832,6 +1912,19 @@
         width: 100%;
         margin: 0 auto;
     }
+
+    /* about page */
+
+    .our-values-section {
+        margin-bottom: 35px;
+    }
+
+    .our-values-section .values-content-box {
+        margin-top: 50px;
+    }
+
+
+
 
     /* service page start  */
     .why-choose-us .chooseUs-content-box {
