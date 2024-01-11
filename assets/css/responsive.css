@@ -859,8 +859,9 @@
     }
 
     .recently-poost-section .pagination {
-        width: 70%;
-        margin: 45px 0;
+        width: 80%;
+        margin: 25px 0;
+        margin-top: -0px !important;
     }
 
     .recently-poost-section .pagination ul {
@@ -913,14 +914,14 @@
 
 
     .recently-poost-section .left-site-posts {
-       margin-bottom: 0;
-       padding-bottom: 0;
+        margin-bottom: 0;
+        padding-bottom: 0;
     }
+
     .recently-poost-section .pagination {
         width: 70%;
         margin: 0px 0;
         padding: 0;
-        background-color: red;
     }
 
     .recently-poost-section .pagination .recently-poost-section .pagination ul li {
@@ -1237,9 +1238,7 @@
         right: 25px;
     }
 
-    .owl-nav .owl-next {
-        background-color: green;
-    }
+
 
     /* blog section */
     .Featured-month-section .content-card {
@@ -1343,6 +1342,17 @@
 
     /* service page end */
 
+    /* blog page */
+    .recently-poost-section .pagination {
+        width: 80%;
+        margin-left: -20px;
+    }
+
+    .recently-poost-section .pagination ul {
+        width: 80%;
+        margin-left: -20px;
+    }
+
 
 
     /* what do we do / doctor bio */
@@ -1351,7 +1361,11 @@
         padding: 15px 25px;
     }
 
-
+    /* blog page pagination */
+    .recently-poost-section .pagination ul {
+        width: 100%;
+        margin-left: 10px !important;
+    }
 
     /* login page */
 
@@ -1602,6 +1616,50 @@
         font-size: 20px;
     }
 
+    .recently-poost-section .right-site-content .ads-zone {
+        height: 100%;
+    }
+
+    .recently-poost-section .right-site-content .ads-zone h4 {
+        font-size: 16px;
+    }
+
+    .recently-poost-section .right-site-content .ads-zone p {
+        font-size: 12px;
+    }
+
+    .recently-poost-section .ads-zone button {
+        width: 65%;
+        margin-top: 10px;
+        font-size: 12px;
+    }
+
+    .recently-poost-section .pagination {
+        width: 80%;
+        display: flex;
+        justify-content: center;
+        margin: 0 auto;
+    }
+
+    /* .recently-poost-section .pagination ul li:first-child,
+    .recently-poost-section .pagination ul li:last-child {
+        width: fit-content;
+        height: ;
+        padding:10px 35px !important;
+    } */
+
+    .recently-poost-section .pagination ul li {
+        width: 20% !important;
+        height: 20px;
+        font-size: 8px;
+    }
+
+    /* blog page end */
+
+
+
+
+
 
     /* portal page */
     .prortal-layout .left-sitebar {
@@ -1694,4 +1752,31 @@
         width: 80%;
         margin: 0px auto;
     }
-}
+
+    /* blog page pagination */
+
+    .recently-poost-section .pagination{
+        width: 100%;
+    }
+    .recently-poost-section .pagination a {
+        width:fit-content !important;
+        padding: 10px 15px;
+        font-size: 12px;
+    }
+    .recently-poost-section .pagination ul {
+        width: 50%;
+        justify-content: space-around;
+        margin-left: 0px !important;
+    }
+    .recently-poost-section .pagination ul li {
+        width:30px !important;
+        padding: 5px 10px;
+        font-size: 12px;
+        background-color: green;
+    }
+
+        /* footer */
+        footer .footer-item {
+            width: 100% !important;
+        }
+    }
