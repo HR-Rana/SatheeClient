@@ -147,7 +147,13 @@ a {
 li {
   list-style: none;
 }
-
+img{
+  border-radius: var(--borderRadius);
+  -webkit-border-radius: var(--borderRadius);
+  -moz-border-radius: var(--borderRadius);
+  -ms-border-radius: var(--borderRadius);
+  -o-border-radius: var(--borderRadius);
+}
 .container-fluid {
   width: 95%;
   margin: 0 auto;
@@ -1261,7 +1267,7 @@ header {
 
 
 .Featured-month-section .items .texts .bottom {
-  width: 70%;
+  width:90%;
   display: flex;
   justify-content: space-between;
   font-size: 14px;
@@ -1459,14 +1465,14 @@ header {
 
 
 .recently-poost-section .pagination {
-  width: 80%;
-  margin: 75px 0;
+  width: 50%;
   display: flex;
   justify-content: center;
+  margin: 75px auto !important;
 }
 
 .recently-poost-section .pagination ul button {
-  width: 250px;
+  width:130px;
   display: flex;
   align-items: center;
   justify-content: space-between;

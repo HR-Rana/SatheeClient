@@ -108,6 +108,13 @@
         backdrop-filter: blur(100px);
     }
 
+    /* blog page */
+    .Featured-month-section .content-texts .card-body {
+        justify-content: start;
+        flex-wrap: wrap;
+    }
+
+
     /* portal page */
     .prortal-layout .left-sitebar {
         width: 20% !important;
@@ -256,6 +263,14 @@
     }
 
 
+    /* blog page */
+    .Featured-month-section .content-texts .card-body {
+        width: 90%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin-bottom: 20px;
+    }
 
     /* login page */
     .signup-page .signup-area {
@@ -885,6 +900,35 @@
         margin-top: 15px;
     }
 
+    .recently-poost-section .blog-item {
+        border: 1px solid var(--borderColor);
+        border-radius: var(--borderRadius10);
+        -webkit-border-radius: var(--borderRadius10);
+        -moz-border-radius: var(--borderRadius10);
+        -ms-border-radius: var(--borderRadius10);
+        -o-border-radius: var(--borderRadius10);
+        padding: 10px;
+    }
+
+
+
+    .recently-poost-section .left-site-posts {
+       margin-bottom: 0;
+       padding-bottom: 0;
+    }
+    .recently-poost-section .pagination {
+        width: 70%;
+        margin: 0px 0;
+        padding: 0;
+        background-color: red;
+    }
+
+    .recently-poost-section .pagination .recently-poost-section .pagination ul li {
+        width: 30%;
+        height: 41px;
+        margin: 0px 16px;
+    }
+
     /* Blog/our science page end */
 
 
@@ -1487,7 +1531,77 @@
 
 
 
-@media (max-width:600px) {
+@media (max-width:640px) {
+
+    /* blog page */
+    .Featured-month-section .content-texts .card-body {
+        flex-wrap: wrap;
+    }
+
+    .Featured-month-section {
+        padding-top: 30px;
+    }
+
+    .Featured-month-section h3 {
+        font-size: 22px;
+    }
+
+    .Featured-month-section .content-card .left-img {
+        padding: 0;
+    }
+
+    .Featured-month-section .content-texts .card-title h5 {
+        font-size: 18px;
+    }
+
+    .Featured-month-section .content-texts .card-body {
+        font-size: 13px;
+    }
+
+    /* popular video section */
+    .Featured-month-section .right-site-videos h5 {
+        font-size: 24px;
+    }
+
+    .Featured-month-section .video-contents .items {
+        display: block;
+    }
+
+    .Featured-month-section .items .video {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .Featured-month-section .items .texts .bottom {
+        width: 70%;
+    }
+
+    /* Recently post */
+    .recently-poost-section .title h4 {
+        padding-bottom: 0px;
+        margin-left: 15px;
+        font-size: 28px;
+    }
+
+    .recently-poost-section .blog-item {
+        width: 100%;
+    }
+
+    .recently-poost-section .blog-item .blog-img img {
+        width: 100%;
+        object-fit: contain;
+        padding-right: 0;
+    }
+
+    .recently-poost-section .pagination {
+        width: 60%;
+        margin: 0px auto;
+    }
+
+    .recently-poost-section .blog-item .blog-body span h4 {
+        font-size: 20px;
+    }
+
 
     /* portal page */
     .prortal-layout .left-sitebar {
@@ -1559,7 +1673,25 @@
     }
 
     /* science section */
-    .prortal-layout .science-section{
+    .prortal-layout .science-section {
         padding: 20px;
+    }
+
+}
+
+
+
+
+
+
+
+@media (max-width:450px) {
+    .Featured-month-section .items .texts .bottom {
+        width: 85%;
+    }
+
+    .recently-poost-section .pagination {
+        width: 80%;
+        margin: 0px auto;
     }
 }
