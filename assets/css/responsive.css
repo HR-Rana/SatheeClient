@@ -40,7 +40,7 @@
         -moz-border-radius: 50%;
         -ms-border-radius: 50%;
         -o-border-radius: 50%;
-}
+    }
 
     .testimonials-box .owl-nav .owl-prev span {
         width: 42px;
@@ -64,7 +64,7 @@
         width: 50px;
         height: 40px;
         font-size: 25px !important;
-         color: #3d3d3d;
+        color: #3d3d3d;
     }
 
     .testimonials-box .owl-nav .owl-next span {
@@ -108,7 +108,10 @@
         backdrop-filter: blur(100px);
     }
 
-
+    /* portal page */
+    .prortal-layout .left-sitebar {
+        width: 20% !important;
+    }
 }
 
 
@@ -892,6 +895,17 @@
     /* Blog/our science page end */
 
 
+
+
+    /* portal page */
+    .science-section .scientist-box .item h6 {
+        font-size: 16px;
+        margin-top: 10px;
+    }
+
+    /* portal page */
+
+
     /* login page */
     .signup-page .login-img {
         /* width: 100%;
@@ -908,8 +922,6 @@
     .signup-page .blur-text {
         display: none;
     }
-
-
 
     .signup-page .title h4 {
         font-size: 38px;
@@ -1007,7 +1019,15 @@
         height: fit-content;
     }
 
+    /* portal page */
+    .chart-section .flex-box {
+        width: 100%;
+        display: flex;
+    }
 
+    .chart-section .chart-card {
+        width: 47%;
+    }
 
     /* footer section */
     footer {
@@ -1366,8 +1386,49 @@
     }
 
 
+    /* portal page  */
+    .prortal-layout .overview-items-box {
+        display: block;
+    }
 
+    .prortal-layout .overview-items-box .item {
+        width: 100%;
+        margin: 25px auto;
+    }
 
+    .prortal-layout .overview-items-box .item h6 {
+        font-size: 20px;
+    }
+
+    .science-section .scientist-box {
+        display: block;
+    }
+
+    .science-section .scientist-box .item {
+        width: 100%;
+        padding: 15px;
+        margin: 15px 0;
+        border: 1px solid var(--borderColor);
+        border-radius: 10px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+        -o-border-radius: 10px;
+    }
+
+    .science-section .scientist-box .item img {
+        width: 100%;
+        border-radius: var(--borderRadius10);
+        -webkit-border-radius: var(--borderRadius10);
+        -moz-border-radius: var(--borderRadius10);
+        -ms-border-radius: var(--borderRadius10);
+        -o-border-radius: var(--borderRadius10);
+    }
+
+    .science-section .scientist-box .item h6 {
+        font-size: 16px;
+        margin-top: 10px;
+    }
 
 }
 

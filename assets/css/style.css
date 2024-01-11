@@ -216,8 +216,8 @@ header {
 
 /* MOBILE NAV ICONS */
 
-.bars-icon{
- display: none;
+.bars-icon {
+  display: none;
 }
 
 .navigation-bar .flex-box {
@@ -247,7 +247,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  
+
 }
 
 .navigation-bar ul li {
@@ -2576,7 +2576,7 @@ header {
 }
 
 .prortal-layout .left-sitebar {
-  width: 293px;
+  width: 20%;
   height: 100vh;
   position: sticky;
   top: 0;
@@ -2586,22 +2586,30 @@ header {
 }
 
 .prortal-layout .left-sitebar .logo {
-  width: 210px;
+  width: 80%;
   height: 71.763px;
   margin-bottom: 23px;
 }
 
 .prortal-layout .left-sitebar .profile {
   display: flex;
-  width: 241px;
-  height: 90px;
+  width: 100%;
+  height: 40px;
   align-items: flex-start;
   gap: 8px;
 }
 
 .prortal-layout .left-sitebar .profile h6 {
-  font-size: 16px;
+  font-size: 15px;
   font-family: 'Poppins';
+  letter-spacing: .5px;
+}
+
+.prortal-layout .left-sitebar .profile img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-self: center;
 }
 
 .prortal-layout .left-sitebar .profile p {
@@ -2650,7 +2658,7 @@ header {
 
 .prortal-layout .right-siteContent {
   width: 80%;
-  padding: 90px;
+  padding: 50px;
   padding-bottom: 120px;
 }
 
@@ -2681,6 +2689,7 @@ header {
 
 .prortal-layout .overview-items-box {
   margin-top: 28px;
+  justify-content: space-between;
 }
 
 .prortal-layout .overview-items-box .item {
@@ -2692,7 +2701,7 @@ header {
   -moz-border-radius: 12px;
   -ms-border-radius: 12px;
   -o-border-radius: 12px;
-  padding: 20;
+  padding: 20px;
 }
 
 .prortal-layout .overview-items-box .item small {
@@ -2700,7 +2709,7 @@ header {
 }
 
 .prortal-layout .overview-items-box .item h6 {
-  font-size: 32px;
+  font-size: 24px;
   font-weight: 700;
 }
 
@@ -2743,7 +2752,97 @@ header {
   background: #FDFFEC;
 }
 
+/* overview end */
 
+
+
+/* portal charts */
+.chart-section {
+  margin: 50px 0;
+}
+
+
+.chart-section .flex-box {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.chart-section .chart-card {
+  width: 32%;
+  margin: 25px 0;
+  padding: 15px;
+  box-shadow: var(--shadow-deep);
+  border-radius: var(--borderRadius10);
+  -webkit-border-radius: var(--borderRadius10);
+  -moz-border-radius: var(--borderRadius10);
+  -ms-border-radius: var(--borderRadius10);
+  -o-border-radius: var(--borderRadius10);
+}
+
+.chart-section .chart-card span {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.chart-section .chart-card span:nth-child(2) {
+  margin-bottom: 20px;
+  margin-left: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.chart-section .chart-card span:nth-child(2) li {
+  width: 15px;
+  height: 15px;
+  background-color: green;
+  color: green !important;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
+.chart-section .chart-card span:nth-child(2) p {
+  color: green !important;
+  font-weight: 500;
+  text-transform: capitalize;
+}
+
+
+.chart-section .chart-card:nth-child(2) span:nth-child(2) li {
+  background-color: #FFD306;
+}
+
+.chart-section .chart-card:nth-child(2) span:nth-child(2) p {
+  color: #FFD306 !important;
+  text-shadow: 0px 0px #3d3d3d;
+  letter-spacing: .2px;
+}
+
+.chart-section .chart-card:nth-child(5) span:nth-child(2) li {
+  background-color: rgb(233, 3, 3);
+}
+
+.chart-section .chart-card:nth-child(5) span:nth-child(2) p {
+  color: rgb(233, 3, 3) !important;
+}
+
+.chart-section .chart-card span img {
+  width: 30px;
+  height: 25px;
+}
+
+
+
+
+
+
+
+/* science section */
 .prortal-layout .science-section {
   padding: 50px;
   margin-top: 60px;
@@ -2770,6 +2869,24 @@ header {
 
 .prortal-layout .science-section h4 {
   font-size: 20px;
+}
+
+.science-section .scientist-box {
+  display: flex;
+  justify-content: space-between;
+}
+
+.science-section .scientist-box .item {
+  width: 32%;
+}
+
+.science-section .scientist-box .item h6 {
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+.science-section .scientist-box .item h6::first-letter {
+  text-transform: uppercase;
 }
 
 
@@ -2937,7 +3054,7 @@ footer .subscribe-input input {
   -o-border-radius: var(--borderRadius10);
 }
 
-footer .subscribe-input input::placeholder{
+footer .subscribe-input input::placeholder {
   color: white;
   outline: none;
 }
