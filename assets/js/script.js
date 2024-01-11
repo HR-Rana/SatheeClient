@@ -4,8 +4,7 @@
 // NAVBAR MOBILE VERSION RESPONSIVE ICON
 
    $("#bars-icon").click(function(){
-      alert("hello js")
-      $(".navigation-bar .nav-items").css("display", "none");;
+      $(".navigation-bar .nav-items").toggle(200);
       $("#bars-icon span").toggle();
    })
 
