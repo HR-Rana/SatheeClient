@@ -8,14 +8,7 @@
       $("#bars-icon span").toggle();
    })
 
-// NAVBAR MOBILE VERSION RESPONSIVE ICON
-   // const navItems = document.querySelector(".navigation-bar .nav-items");
-   // const barsIcon = document.getElementById("bars-icon");
 
-   // barsIcon.addEventListener("click", ()=>{
-   //    navItems.style.display="block";
-   //    barsIcon.toggle("span");
-   // })
 
 
 // portal page sidebar Responsive
