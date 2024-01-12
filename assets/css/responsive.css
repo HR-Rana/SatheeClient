@@ -274,11 +274,11 @@
 
     /* login page */
     .signup-page .signup-area {
-        padding: 100px;
+        padding: 100px 0;
     }
 
     .signup-page .signup-form {
-        width: 80%;
+        width: 45%;
         margin: 0 auto;
     }
 
@@ -1778,7 +1778,8 @@
     }
 
     .weekly-consultation .right-site-content {
-        margin-top: 45px;
+        margin-top: 75px;
+        padding: 25px 0;
     }
 
     .weekly-consultation .right-site-content h3 {
@@ -1795,7 +1796,7 @@
     }
 
     .consultation-section {
-        margin-top: 70px;
+        margin-top: 80px;
     }
 
     .consultation-section .section-title {
@@ -1812,6 +1813,24 @@
 
     .consultation-section .items .right-content {
         width: 100%;
+    }
+
+    .choose-plan-sectin .plan-table-area table th {
+        font-size: 15px;
+    }
+
+    .choose-plan-sectin .plan-table-area table tr img {
+        width: 16px;
+    }
+
+    .choose-plan-sectin .plan-table-area tbody td{
+        font-size: 12px;
+    }
+
+    .choose-plan-sectin .plan-table-area tfoot tr:last-child button {
+        width: 100%;
+        font-weight: 400;
+        font-size: 12px;
     }
 
     /* about page */
@@ -2084,7 +2103,7 @@
         margin-top: 5px;
     }
 
-    .signup-page form .button button{
+    .signup-page form .button button {
         height: 35px;
         font-size: 16px;
         margin: 0 auto;
@@ -2244,9 +2263,6 @@
         padding-top: 25px;
     }
 
-    .weekly-consultation .weekly-consultation-box {
-        margin-top: 35px;
-    }
 
     .why-choose-us .content {
         width: 85% !important;
