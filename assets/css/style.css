@@ -269,7 +269,7 @@ header {
 }
 
 .navigation-bar ul li a.active {
-  color: var(--Primary-Blue);
+  color: var(--Primary-Blue) !important;
   font-weight: 700;
 }
 

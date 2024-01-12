@@ -890,9 +890,10 @@
         margin-left: 15px;
     }
 
-    .recently-poost-section{
+    .recently-poost-section {
         margin: 85px 0;
     }
+
     .recently-poost-section .flex-box {
         display: block;
     }
@@ -1117,7 +1118,7 @@
     }
 
     .signup-page .title p {
-        font-size: 28px;
+        font-size: 22px;
         color: #3d3d3d;
         font-weight: 600;
         margin-top: 5px;
@@ -1218,7 +1219,7 @@
 
 
 @media only screen and (max-width:768px) {
-   
+
 
     /* navigation bar styles */
     .navigation-bar {
@@ -1293,6 +1294,7 @@
         color: #3d3d3d;
         margin: 50px 0;
     }
+
 
     .section-title {
         width: 80%;
@@ -1415,6 +1417,7 @@
         width: 95%;
         margin: 25px auto;
         margin-top: 25px;
+        padding: 10px;
     }
 
     .choose-plan-sectin .plan-box .right-site-plan .plan-items {
@@ -1825,16 +1828,25 @@
     }
 
 
-    /* .Qualified-doctors-section .section-title h4{
-        font-size:28px !important;
-    } */
+
     .qualified-doctors-box .items-card {
         width: 100%;
     }
 
+    /* services page */
+    .choose-plan-sectin .plan-box .left-price h3 {
+        font-size: 32px;
+    }
 
+    .choose-plan-sectin .plan-box {
+        padding-top: 00px;
+    }
 
-
+    .choose-plan-sectin .plan-box .heading span button {
+        display: flex;
+        align-items: center;
+        padding: 15px 10px;
+    }
 
 
     /* blog page */
@@ -1867,9 +1879,10 @@
         font-size: 24px;
     }
 
-    .Featured-month-section .video-contents{
+    .Featured-month-section .video-contents {
         padding-top: 70px;
     }
+
     .Featured-month-section .video-contents .items {
         width: 90%;
         margin: 25px auto;
@@ -1938,12 +1951,6 @@
         margin: 0 auto;
     }
 
-    /* .recently-poost-section .pagination ul li:first-child,
-    .recently-poost-section .pagination ul li:last-child {
-        width: fit-content;
-        height: ;
-        padding:10px 35px !important;
-    } */
 
     .recently-poost-section .pagination ul li {
         width: 20% !important;
@@ -2046,6 +2053,23 @@
         font-size: 14px;
     }
 
+    /* login page */
+    .signup-page .title h4 {
+        font-size: 28px;
+    }
+
+    .signup-page .title p {
+        font-size: 16px;
+    }
+
+    .signup-page form span label {
+        height: 15px;
+        display: block;
+        align-items: center;
+        margin-left: 15px;
+        font-size: 10px;
+        font-weight: 600;
+    }
 }
 
 
@@ -2201,6 +2225,19 @@
 
     .weekly-consultation-box {
         padding: 0 !important;
+    }
+
+    .choose-plan-sectin .plan-box .heading span {
+        display: block;
+        margin-top: 10px;
+    }
+
+    .choose-plan-sectin .plan-box button {
+        width: 80%;
+        height: 40px;
+        margin: 0 auto;
+        font-weight: 600;
+        font-size: 14px;
     }
 
     /* service page end */
