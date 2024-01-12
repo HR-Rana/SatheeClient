@@ -2163,12 +2163,13 @@
 
     .join-waitinglist-today .left-content button {
         width: 50%;
+        font-size: 15px;
+        padding: 10px;
     }
-
 
     /* testimonials section */
     .section-title h4 {
-        font-size: 24px !important;
+        font-size: 22px !important;
         margin: 10px 0;
     }
 
@@ -2194,8 +2195,16 @@
         width: 12px;
     }
 
+    /* faq */
+    .faq-section .section-title p {
+        font-size: 16px;
 
+    }
 
+    /* blog section */
+    .Blog-section .container {
+        padding: 50px 15px;
+    }
 
     /* about page */
 
@@ -2283,6 +2292,13 @@
         margin: 0;
     }
 
+    .Blog-section .button {
+        font-size: 13px;
+    }
+
+
+
+
     /* footer */
     footer .footer-item {
         width: 100% !important;
@@ -2298,5 +2314,9 @@
 
     footer .footer-item h5 {
         font-size: 18px;
+    }
+
+    footer .flogo .social-icons {
+        width: 25%;
     }
 }
