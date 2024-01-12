@@ -876,7 +876,7 @@
 
     .Featured-month-section .right-site-videos {
         width: 80%;
-        margin: 25px auto;
+        margin: 75px auto;
     }
 
     .Featured-month-section h3 {
@@ -1401,8 +1401,8 @@
     }
 
     .choose-plan-sectin {
-        margin-top: 60px;
-        margin-bottom: 50px;
+        margin-top: 100px;
+        margin-bottom: 100px;
     }
 
 
@@ -1417,7 +1417,7 @@
         width: 95%;
         margin: 25px auto;
         margin-top: 25px;
-        padding: 10px;
+        padding: 50px 15px;
     }
 
     .choose-plan-sectin .plan-box .right-site-plan .plan-items {
@@ -2069,6 +2069,25 @@
         margin-left: 15px;
         font-size: 10px;
         font-weight: 600;
+    }
+
+    .signup-page .login-page span label {
+        font-size: 14px;
+        display: flex;
+        align-items: center;
+    }
+
+    .signup-page .login-page span label a {
+        font-size: 14px;
+        display: flex;
+        align-items: center;
+        margin-top: 5px;
+    }
+
+    .signup-page form .button button{
+        height: 35px;
+        font-size: 16px;
+        margin: 0 auto;
     }
 }
 
