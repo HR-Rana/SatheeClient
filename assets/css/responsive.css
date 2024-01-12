@@ -2079,7 +2079,14 @@
 
 
 @media (max-width:450px) {
-
+    .faq-section .right-site-FAQs .faq-item span {
+        width: 30px;
+        height: 30px;
+        position: absolute;
+        right: 0px;
+        top: 18px;
+        font-size: 15px;
+    }
 
     /* container class */
     .container {
