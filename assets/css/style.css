@@ -556,6 +556,7 @@ header {
   right: 25px;
   gap: 20px;
 }
+
 .testimonials-box .owl-nav span {
   width: 50px;
   height: 50px;
@@ -575,7 +576,8 @@ header {
   -ms-transition: .6s;
   -o-transition: .6s;
 }
-.testimonials-box .owl-nav span:hover{
+
+.testimonials-box .owl-nav span:hover {
   background-color: var(--Primary-Blue);
   color: #fff;
 }
@@ -1828,6 +1830,7 @@ header {
 
 .why-choose-us {
   padding: 75px 0;
+  margin-bottom: 50px;
 }
 
 
@@ -1871,14 +1874,17 @@ header {
   margin-top: 25px;
 }
 
+
+
+/* service offer section */
 .Service-offer-section .section-title {
   width: 75%;
 
 }
 
 .choose-plan-sectin {
-  margin-top: 90px;
-  margin-bottom: 60px;
+  margin: 100px 0;
+  padding: 50px 0;
 }
 
 .choose-plan-sectin .plan-box {
@@ -2062,8 +2068,10 @@ header {
 
 /* consultation section styless in service page */
 
-.consultation-section {
-  margin-top: 115px;
+.weekly-consultation {
+  margin: 115px 0;
+  padding: 80px 0;
+
 }
 
 .weekly-consultation .weekly-consultation-box {
@@ -2148,7 +2156,10 @@ header {
 
 
 /* consultation section styles */
-
+.consultation-section{
+  margin: 100px 0;
+  padding: 50px 0;
+}
 .consultation-section .items {
   width: 100%;
   justify-content: space-between;
