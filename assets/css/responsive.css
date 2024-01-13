@@ -12,7 +12,7 @@
     }
 
     /* testimonials  */
-    .what-people-think-aboutus .testimonials-box {
+    /* .what-people-think-aboutus .testimonials-box {
         margin-top: 80px;
         position: relative;
     }
@@ -74,7 +74,7 @@
         color: #3d3d3d;
         justify-content: center;
         text-align: center;
-    }
+    } */
 
     /* testimonials  ends*/
     .Compay-history-section .history-banner {
@@ -1249,16 +1249,22 @@
     .navigation-bar .logo {
         width: 25%;
     }
+    header{
+        padding: 0;
+        position: relative;
+        background-color: green;
+    }
 
     .navigation-bar .nav-items {
-        padding: 25px;
+        /* padding: 25px; */
         display: block;
         width: 100vw;
         height: 400px;
         position: absolute;
-        left: -30px;
+        left: -0px;
         top: 100%;
         display: block;
+        margin: 0px;
         background-color: #fff;
         box-shadow: var(--DropShadow);
         z-index: 99999;
@@ -1266,14 +1272,23 @@
     }
 
     .navigation-bar .nav-items ul {
+        width: 100%;
         display: block;
-        margin-left: 25px;
+        margin-left: 0px;
     }
 
     .navigation-bar .nav-items ul li {
-        width: 30%;
+        width: 100%;
         display: block;
         margin: 20px 0;
+        text-align: center;
+    }
+
+    .navigation-bar .nav-items ul li:last-child {
+        width: 40%;
+        display: block;
+        margin: 20px auto;
+        text-align: center;
     }
 
     .navigation-bar .nav-items ul li:last-child {
@@ -1702,7 +1717,7 @@
 
 @media (max-width:640px) {
 
-    /* home page */
+
     /* banner section */
     /* banner */
     .Hero-section .hero-left {
@@ -1823,7 +1838,7 @@
         width: 16px;
     }
 
-    .choose-plan-sectin .plan-table-area tbody td{
+    .choose-plan-sectin .plan-table-area tbody td {
         font-size: 12px;
     }
 
@@ -2117,14 +2132,7 @@
 
 
 @media (max-width:450px) {
-    .faq-section .right-site-FAQs .faq-item span {
-        width: 30px;
-        height: 30px;
-        position: absolute;
-        right: 0px;
-        top: 18px;
-        font-size: 15px;
-    }
+
 
     /* container class */
     .container {
@@ -2137,6 +2145,13 @@
         width: 40%;
     }
 
+    .navigation-bar .nav-items ul li:last-child {
+        width: 50%;
+        display: block;
+        margin: 20px auto;
+        text-align: center;
+    }
+
 
 
     .navigation-bar .nav-items ul {
@@ -2144,11 +2159,7 @@
         margin: 45px auto;
     }
 
-    .navigation-bar .nav-items ul li {
-        width: 50%;
-        margin: 20px auto;
-        text-align: center;
-    }
+
 
     .navigation-bar .nav-items ul li a {
         color: #3d3d3d;
@@ -2237,6 +2248,15 @@
     .faq-section .section-title p {
         font-size: 16px;
 
+    }
+
+    .faq-section .right-site-FAQs .faq-item span {
+        width: 30px;
+        height: 30px;
+        position: absolute;
+        right: 0px;
+        top: 18px;
+        font-size: 15px;
     }
 
     /* blog section */
